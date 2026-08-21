@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Knobelaufgaben 2 – 4 &amp; 5 Sterne</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 13pt;
+    color: #1a1a1a;
+    background: #f0ede8;
+  }
+
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    background: #fff;
+    margin: 12mm auto;
+    padding: 14mm 16mm 16mm;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.13);
+  }
+
+  /* ── Header ── */
+  .sheet-header {
+    border-bottom: 2.5pt solid #1a1a1a;
+    padding-bottom: 6pt;
+    margin-bottom: 10pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .sheet-title { font-size: 17pt; font-weight: 700; letter-spacing: -0.02em; }
+  .sheet-sub   { font-size: 10pt; color: #555; margin-top: 2pt; }
+  .sheet-meta  { font-size: 9.5pt; text-align: right; line-height: 2.1; color: #333; }
+  .meta-line   { border-bottom: 1pt solid #666; display: inline-block; min-width: 110pt; }
+
+  .intro {
+    font-size: 9.5pt;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 11pt;
+    line-height: 1.5;
+  }
+
+  /* ── Level header ── */
+  .level-header {
+    display: flex;
+    align-items: center;
+    gap: 8pt;
+    margin: 13pt 0 8pt;
+  }
+  .level-badge {
+    font-size: 8pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 3pt 9pt;
+    border-radius: 20pt;
+    white-space: nowrap;
+  }
+  .l4 .level-badge { background: #fce4ec; color: #c62828; }
+  .l5 .level-badge { background: #ede7f6; color: #4527a0; }
+  .level-title { font-size: 10pt; font-weight: 600; color: #333; }
+  .stars       { font-size: 10.5pt; letter-spacing: -1.5pt; }
+  .level-line  { flex: 1; border-bottom: 0.7pt solid #ccc; }
+
+  /* ── Problem grid ── */
+  .problems {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6pt 13pt;
+  }
+
+  .q {
+    border: 0.7pt solid #ddd;
+    border-radius: 5pt;
+    padding: 8pt 10pt 9pt;
+    background: #fafafa;
+  }
+  .q-num {
+    font-size: 8pt;
+    font-weight: 700;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 4pt;
+  }
+  .q-text {
+    font-size: 11pt;
+    line-height: 1.55;
+    color: #1a1a1a;
+    margin-bottom: 8pt;
+  }
+  .q-text strong { font-weight: 700; }
+  .hint {
+    font-size: 9pt;
+    color: #888;
+    font-style: italic;
+    margin-bottom: 7pt;
+    line-height: 1.4;
+  }
+  .answer-row {
+    display: flex;
+    align-items: center;
+    gap: 5pt;
+    font-size: 10pt;
+    color: #666;
+    flex-wrap: wrap;
+  }
+  .answer-line {
+    border-bottom: 1pt solid #555;
+    display: inline-block;
+    min-width: 55pt;
+    height: 14pt;
+  }
+  .answer-line.wide { min-width: 80pt; }
+
+  /* ── Answer key ── */
+  .answer-key {
+    margin-top: 14pt;
+    border-top: 1pt dashed #bbb;
+    padding-top: 10pt;
+    page-break-inside: avoid;
+  }
+  .ak-title {
+    font-size: 9pt;
+    font-weight: 700;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    margin-bottom: 8pt;
+  }
+  .ak-section { margin-bottom: 7pt; }
+  .ak-level {
+    font-size: 8pt;
+    font-weight: 600;
+    color: #aaa;
+    margin-bottom: 4pt;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .ak-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4pt;
+  }
+  .ak-item {
+    background: #f5f5f5;
+    border: 0.5pt solid #e0e0e0;
+    border-radius: 4pt;
+    padding: 3pt 8pt;
+    font-size: 9pt;
+    color: #222;
+    white-space: nowrap;
+  }
+  .ak-item span { color: #aaa; margin-right: 3pt; }
+  .ak-item small { color: #bbb; font-size: 7.5pt; margin-left: 3pt; }
+
+  /* ── Print controls ── */
+  .print-controls {
+    text-align: center;
+    margin: 0 0 10mm;
+  }
+  .print-controls button {
+    font-family: inherit;
+    font-size: 11pt;
+    padding: 7pt 18pt;
+    cursor: pointer;
+    border: 1pt solid #666;
+    border-radius: 4pt;
+    background: #fff;
+    margin: 0 4pt;
+  }
+  .print-controls button:hover { background: #f5f5f5; }
+
+  @media print {
+    body { background: #fff; }
+    .page { margin: 0; padding: 12mm 14mm 14mm; box-shadow: none; width: 100%; }
+    .print-controls { display: none !important; }
+    .q { background: #fff; border-color: #ccc; }
+    .answer-key { page-break-inside: avoid; }
+    .q { break-inside: avoid;  }
+  }
+</style>
+</head>
+<body>
+
+<div class="print-controls">
+  <small>Für besten Druck: Firefox verwenden</small>
+  <button onclick="window.print()">🖨 Drucken</button>
+  <button id="akBtn" onclick="toggleAK()">🔒 Lösungen ausblenden</button>
+</div>
+
+<!-- ═══════════════════════════════════════════ SEITE 1: STUFE 4 ═══ -->
+<div class="page">
+
+  <div class="sheet-header">
+    <div>
+      <div class="sheet-title">🧩 Knobelaufgaben 2</div>
+      <div class="sheet-sub">Teilen, Umkehren &amp; Zwei-Schritt-Rätsel · Stufen ⭐⭐⭐⭐ und ⭐⭐⭐⭐⭐</div>
+    </div>
+    <div class="sheet-meta">
+      <div>Name: <span class="meta-line"></span></div>
+      <div>Klasse: <span class="meta-line"></span></div>
+      <div>Datum: <span class="meta-line"></span></div>
+    </div>
+  </div>
+
+  <div class="intro">
+    Hier brauchst du manchmal zwei Rechenschritte – lies die Aufgabe zweimal, dann schaffst du das! ✏️🧠
+  </div>
+
+  <div class="level-header l4">
+    <span class="level-badge">Stufe 4</span>
+    <span class="stars">⭐⭐⭐⭐</span>
+    <span class="level-title">Teilen &amp; Umkehraufgaben</span>
+    <span class="level-line"></span>
+  </div>
+
+  <div class="problems">
+
+    <div class="q">
+      <div class="q-num">Aufgabe 1</div>
+      <div class="q-text"><strong>81 Buntstifte</strong> werden gleichmäßig auf <strong>9 Kinder</strong> verteilt. Wie viele Buntstifte bekommt jedes Kind?</div>
+      <div class="answer-row">Jedes Kind bekommt <span class="answer-line"></span> Buntstifte.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 2</div>
+      <div class="q-text"><strong>36 Tassen</strong> werden gleichmäßig auf <strong>4 Schränke</strong> verteilt. Wie viele Tassen stehen in jedem Schrank?</div>
+      <div class="answer-row">In jedem Schrank stehen <span class="answer-line"></span> Tassen.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 3</div>
+      <div class="q-text"><strong>49 Steine</strong> werden in <strong>7 Haufen</strong> sortiert. Wie viele Steine liegen in jedem Haufen?</div>
+      <div class="answer-row">In jedem Haufen liegen <span class="answer-line"></span> Steine.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 4</div>
+      <div class="q-text"><strong>64 Kekse</strong> werden gleichmäßig auf <strong>8 Teller</strong> verteilt. Wie viele Kekse liegen auf jedem Teller?</div>
+      <div class="answer-row">Auf jedem Teller liegen <span class="answer-line"></span> Kekse.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 5</div>
+      <div class="q-text"><strong>45 Stifte</strong> werden gleichmäßig in <strong>5 Dosen</strong> gelegt. Wie viele Stifte kommen in jede Dose?</div>
+      <div class="answer-row">In jede Dose kommen <span class="answer-line"></span> Stifte.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 6</div>
+      <div class="q-text"><strong>24 Schuhe</strong> werden gleichmäßig in <strong>3 Reihen</strong> gestellt. Wie viele Schuhe stehen in jeder Reihe?</div>
+      <div class="answer-row">In jeder Reihe stehen <span class="answer-line"></span> Schuhe.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 7</div>
+      <div class="q-text"><strong>56 Nüsse</strong> werden gleichmäßig in <strong>8 Tüten</strong> gefüllt. Wie viele Nüsse sind in jeder Tüte?</div>
+      <div class="answer-row">In jeder Tüte sind <span class="answer-line"></span> Nüsse.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 8</div>
+      <div class="q-text"><strong>30 Bleistifte</strong> werden gleichmäßig in <strong>6 Boxen</strong> gepackt. Wie viele Bleistifte sind in jeder Box?</div>
+      <div class="answer-row">In jeder Box sind <span class="answer-line"></span> Bleistifte.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 9</div>
+      <div class="q-text"><strong>72 Seiten</strong> werden gleichmäßig auf <strong>8 Hefte</strong> verteilt. Wie viele Seiten hat jedes Heft?</div>
+      <div class="answer-row">Jedes Heft hat <span class="answer-line"></span> Seiten.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 10</div>
+      <div class="q-text"><strong>18 Bonbons</strong> werden gleichmäßig an <strong>2 Kinder</strong> verteilt. Wie viele Bonbons bekommt jedes Kind?</div>
+      <div class="answer-row">Jedes Kind bekommt <span class="answer-line"></span> Bonbons.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 11</div>
+      <div class="q-text"><strong>42 Karotten</strong> werden gleichmäßig in <strong>6 Kisten</strong> gepackt. Wie viele Karotten sind in jeder Kiste?</div>
+      <div class="answer-row">In jeder Kiste sind <span class="answer-line"></span> Karotten.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 12</div>
+      <div class="q-text"><strong>32 Kugeln</strong> werden gleichmäßig in <strong>4 Taschen</strong> gesteckt. Wie viele Kugeln sind in jeder Tasche?</div>
+      <div class="answer-row">In jeder Tasche sind <span class="answer-line"></span> Kugeln.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 13</div>
+      <div class="q-text"><strong>63 Lollis</strong> werden gleichmäßig an <strong>7 Kinder</strong> verteilt. Wie viele Lollis bekommt jedes Kind?</div>
+      <div class="answer-row">Jedes Kind bekommt <span class="answer-line"></span> Lollis.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 14</div>
+      <div class="q-text"><strong>27 Äpfel</strong> werden gleichmäßig in <strong>3 Körbe</strong> gelegt. Wie viele Äpfel liegen in jedem Korb?</div>
+      <div class="answer-row">In jedem Korb liegen <span class="answer-line"></span> Äpfel.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 15</div>
+      <div class="q-text"><strong>40 Karten</strong> werden gleichmäßig auf <strong>5 Stapel</strong> verteilt. Wie viele Karten hat jeder Stapel?</div>
+      <div class="answer-row">Jeder Stapel hat <span class="answer-line"></span> Karten.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 16</div>
+      <div class="q-text"><strong>48 Murmeln</strong> werden gleichmäßig in <strong>8 Beutel</strong> gefüllt. Wie viele Murmeln sind in jedem Beutel?</div>
+      <div class="answer-row">In jedem Beutel sind <span class="answer-line"></span> Murmeln.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 17</div>
+      <div class="q-text"><strong>20 Schnecken</strong> werden gleichmäßig auf <strong>2 Terrarien</strong> verteilt. Wie viele Schnecken leben in jedem Terrarium?</div>
+      <div class="answer-row">In jedem Terrarium leben <span class="answer-line"></span> Schnecken.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 18</div>
+      <div class="q-text"><strong>35 Federn</strong> werden gleichmäßig in <strong>7 Gläser</strong> gesteckt. Wie viele Federn sind in jedem Glas?</div>
+      <div class="answer-row">In jedem Glas sind <span class="answer-line"></span> Federn.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 19</div>
+      <div class="q-text"><strong>54 Kneteile</strong> werden gleichmäßig in <strong>6 Töpfe</strong> gepackt. Wie viele Kneteile sind in jedem Topf?</div>
+      <div class="answer-row">In jedem Topf sind <span class="answer-line"></span> Kneteile.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 20</div>
+      <div class="q-text"><strong>28 Sterne</strong> werden gleichmäßig auf <strong>4 Türen</strong> geklebt. Wie viele Sterne kleben an jeder Tür?</div>
+      <div class="answer-row">An jeder Tür kleben <span class="answer-line"></span> Sterne.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 21</div>
+      <div class="q-text"><strong>60 Kastanien</strong> werden gleichmäßig in <strong>6 Schalen</strong> verteilt. Wie viele Kastanien sind in jeder Schale?</div>
+      <div class="answer-row">In jeder Schale sind <span class="answer-line"></span> Kastanien.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 22</div>
+      <div class="q-text"><strong>90 Autos</strong> werden gleichmäßig in <strong>9 Reihen</strong> aufgestellt. Wie viele Autos stehen in jeder Reihe?</div>
+      <div class="answer-row">In jeder Reihe stehen <span class="answer-line"></span> Autos.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 23</div>
+      <div class="q-text"><strong>36 Blumen</strong> werden gleichmäßig in <strong>4 Vasen</strong> gesteckt. Wie viele Blumen stehen in jeder Vase?</div>
+      <div class="answer-row">In jeder Vase stehen <span class="answer-line"></span> Blumen.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 24</div>
+      <div class="q-text"><strong>70 Tücher</strong> werden gleichmäßig in <strong>7 Schubladen</strong> gelegt. Wie viele Tücher sind in jeder Schublade?</div>
+      <div class="answer-row">In jeder Schublade sind <span class="answer-line"></span> Tücher.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 25</div>
+      <div class="q-text"><strong>48 Briefe</strong> werden gleichmäßig in <strong>6 Ordner</strong> sortiert. Wie viele Briefe sind in jedem Ordner?</div>
+      <div class="answer-row">In jedem Ordner sind <span class="answer-line"></span> Briefe.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 26</div>
+      <div class="q-text"><strong>25 Gummibärchen</strong> werden gleichmäßig in <strong>5 Tüten</strong> gefüllt. Wie viele Gummibärchen sind in jeder Tüte?</div>
+      <div class="answer-row">In jeder Tüte sind <span class="answer-line"></span> Gummibärchen.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 27</div>
+      <div class="q-text"><strong>16 Stühle</strong> werden gleichmäßig in <strong>2 Reihen</strong> gestellt. Wie viele Stühle stehen in jeder Reihe?</div>
+      <div class="answer-row">In jeder Reihe stehen <span class="answer-line"></span> Stühle.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 28</div>
+      <div class="q-text"><strong>14 Pakete</strong> werden gleichmäßig in <strong>2 Kisten</strong> gepackt. Wie viele Pakete sind in jeder Kiste?</div>
+      <div class="answer-row">In jeder Kiste sind <span class="answer-line"></span> Pakete.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 29</div>
+      <div class="q-text"><strong>50 Münzen</strong> werden gleichmäßig auf <strong>5 Sparschweine</strong> verteilt. Wie viele Münzen kommen in jedes Sparschwein?</div>
+      <div class="answer-row">In jedes Sparschwein kommen <span class="answer-line"></span> Münzen.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 30</div>
+      <div class="q-text"><strong>80 Karten</strong> werden gleichmäßig auf <strong>8 Decks</strong> verteilt. Wie viele Karten hat jedes Deck?</div>
+      <div class="answer-row">Jedes Deck hat <span class="answer-line"></span> Karten.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 31</div>
+      <div class="q-text"><strong>24 Tassen</strong> werden gleichmäßig in <strong>3 Kisten</strong> gepackt. Wie viele Tassen sind in jeder Kiste?</div>
+      <div class="answer-row">In jeder Kiste sind <span class="answer-line"></span> Tassen.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 32</div>
+      <div class="q-text"><strong>36 Bretter</strong> werden gleichmäßig auf <strong>4 Stapel</strong> gelegt. Wie viele Bretter hat jeder Stapel?</div>
+      <div class="answer-row">Jeder Stapel hat <span class="answer-line"></span> Bretter.</div>
+    </div>
+
+  </div><!-- /problems stufe 4 -->
+
+</div><!-- /page 1 -->
+
+
+<!-- ═══════════════════════════════════════════ SEITE 2: STUFE 5 ═══ -->
+<div class="page">
+
+  <div class="sheet-header">
+    <div>
+      <div class="sheet-title">🧩 Knobelaufgaben 2</div>
+      <div class="sheet-sub">Fortsetzung · Stufe ⭐⭐⭐⭐⭐</div>
+    </div>
+  </div>
+
+  <div class="level-header l5">
+    <span class="level-badge">Stufe 5</span>
+    <span class="stars">⭐⭐⭐⭐⭐</span>
+    <span class="level-title">Knobel-Aufgaben (zwei Schritte)</span>
+    <span class="level-line"></span>
+  </div>
+
+  <div class="problems">
+
+    <div class="q">
+      <div class="q-num">Aufgabe 33</div>
+      <div class="q-text">Mia kauft <strong>5 Tüten</strong> mit je <strong>6 Äpfeln</strong> und noch <strong>8 einzelne</strong> dazu. Wie viele Äpfel hat Mia insgesamt?</div>
+      <div class="hint">Tipp: Erst ausrechnen, wie viele Äpfel in den Tüten sind.</div>
+      <div class="answer-row">Mia hat <span class="answer-line"></span> Äpfel.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 34</div>
+      <div class="q-text">In der Sporthalle liegen <strong>7 Kisten</strong> mit je <strong>4 Bällen</strong>. Es werden <strong>9 Bälle</strong> weggegeben. Wie viele Bälle sind noch da?</div>
+      <div class="hint">Tipp: Erst alle Bälle zählen, dann abziehen.</div>
+      <div class="answer-row">Es sind noch <span class="answer-line"></span> Bälle da.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 35</div>
+      <div class="q-text"><strong>48 Plätzchen</strong> werden gleichmäßig auf <strong>8 Teller</strong> verteilt. Dann kommen noch <strong>6 Plätzchen</strong> dazu. Wie viele Plätzchen liegen jetzt auf jedem Teller?</div>
+      <div class="hint">Tipp: Erst teilen, dann dazuzählen.</div>
+      <div class="answer-row">Auf jedem Teller liegen <span class="answer-line"></span> Plätzchen.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 36</div>
+      <div class="q-text">In <strong>6 Beuteln</strong> sind je <strong>7 Bonbons</strong>. In <strong>4 weiteren Beuteln</strong> sind je <strong>5 Bonbons</strong>. Wie viele Bonbons sind es insgesamt?</div>
+      <div class="hint">Tipp: Beide Gruppen getrennt ausrechnen, dann addieren.</div>
+      <div class="answer-row">Es sind <span class="answer-line"></span> Bonbons insgesamt.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 37</div>
+      <div class="q-text">Ein Händler liefert <strong>9 Kisten</strong> mit je <strong>6 Eiern</strong>. <strong>12 Eier</strong> sind kaputt. Wie viele Eier sind heil?</div>
+      <div class="hint">Tipp: Erst alle Eier zählen, dann die kaputten abziehen.</div>
+      <div class="answer-row">Es sind <span class="answer-line"></span> Eier heil.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 38</div>
+      <div class="q-text"><strong>54 Murmeln</strong> werden gleichmäßig auf <strong>9 Kinder</strong> verteilt. Jedes Kind bekommt dann noch <strong>7 Murmeln</strong> geschenkt. Wie viele Murmeln hat jedes Kind am Ende?</div>
+      <div class="hint">Tipp: Erst teilen, dann dazuzählen.</div>
+      <div class="answer-row">Jedes Kind hat <span class="answer-line"></span> Murmeln.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 39</div>
+      <div class="q-text">Lukas hat <strong>3 Packungen</strong> mit je <strong>9 Stiften</strong> und <strong>5 Packungen</strong> mit je <strong>6 Stiften</strong>. Wie viele Stifte hat er insgesamt?</div>
+      <div class="hint">Tipp: Beide Gruppen getrennt ausrechnen, dann addieren.</div>
+      <div class="answer-row">Lukas hat <span class="answer-line"></span> Stifte.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 40</div>
+      <div class="q-text">In <strong>8 Tüten</strong> sind je <strong>8 Nüsse</strong>. Es werden <strong>15 Nüsse</strong> gegessen. Wie viele Nüsse bleiben übrig?</div>
+      <div class="hint">Tipp: Erst alle Nüsse zählen, dann abziehen.</div>
+      <div class="answer-row">Es bleiben <span class="answer-line"></span> Nüsse übrig.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 41</div>
+      <div class="q-text"><strong>36 Kekse</strong> werden gleichmäßig auf <strong>4 Kinder</strong> verteilt. Jedes Kind bekommt dann noch <strong>2 Kekse</strong> extra. Wie viele Kekse hat jedes Kind am Ende?</div>
+      <div class="hint">Tipp: Erst teilen, dann dazuzählen.</div>
+      <div class="answer-row">Jedes Kind hat <span class="answer-line"></span> Kekse.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 42</div>
+      <div class="q-text">In <strong>7 Fächern</strong> liegen je <strong>7 Münzen</strong>. In <strong>3 weiteren Fächern</strong> liegen je <strong>9 Münzen</strong>. Wie viele Münzen sind das insgesamt?</div>
+      <div class="hint">Tipp: Beide Gruppen getrennt ausrechnen, dann addieren.</div>
+      <div class="answer-row">Es sind <span class="answer-line"></span> Münzen insgesamt.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 43</div>
+      <div class="q-text">In <strong>4 Körben</strong> liegen je <strong>8 Äpfel</strong>. In <strong>6 weiteren Körben</strong> liegen je <strong>5 Äpfel</strong>. Wie viele Äpfel sind es insgesamt?</div>
+      <div class="hint">Tipp: Beide Gruppen getrennt ausrechnen, dann addieren.</div>
+      <div class="answer-row">Es sind <span class="answer-line"></span> Äpfel insgesamt.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 44</div>
+      <div class="q-text"><strong>72 Buntstifte</strong> werden gleichmäßig auf <strong>9 Kinder</strong> verteilt. Jedes Kind bekommt dann noch <strong>4 Stifte</strong> geschenkt. Wie viele Stifte hat jedes Kind am Ende?</div>
+      <div class="hint">Tipp: Erst teilen, dann dazuzählen.</div>
+      <div class="answer-row">Jedes Kind hat <span class="answer-line"></span> Stifte.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 45</div>
+      <div class="q-text">In <strong>6 Schachteln</strong> sind je <strong>9 Kugeln</strong>. Es werden <strong>14 Kugeln</strong> verloren. Wie viele Kugeln bleiben?</div>
+      <div class="hint">Tipp: Erst alle Kugeln zählen, dann abziehen.</div>
+      <div class="answer-row">Es bleiben <span class="answer-line"></span> Kugeln.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 46</div>
+      <div class="q-text">Ein Bäcker packt <strong>5 Tüten</strong> mit je <strong>7 Brötchen</strong> und <strong>3 Tüten</strong> mit je <strong>4 Brötchen</strong>. Wie viele Brötchen sind das?</div>
+      <div class="hint">Tipp: Beide Gruppen getrennt ausrechnen, dann addieren.</div>
+      <div class="answer-row">Es sind <span class="answer-line"></span> Brötchen insgesamt.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 47</div>
+      <div class="q-text"><strong>60 Bücher</strong> werden gleichmäßig auf <strong>6 Regale</strong> verteilt. Auf jedes Regal kommen noch <strong>5 Bücher</strong> dazu. Wie viele Bücher stehen auf jedem Regal?</div>
+      <div class="hint">Tipp: Erst teilen, dann dazuzählen.</div>
+      <div class="answer-row">Auf jedem Regal stehen <span class="answer-line"></span> Bücher.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 48</div>
+      <div class="q-text">In <strong>8 Päckchen</strong> sind je <strong>6 Kekse</strong>. Es werden <strong>20 Kekse</strong> gegessen. Wie viele Kekse bleiben übrig?</div>
+      <div class="hint">Tipp: Erst alle Kekse zählen, dann abziehen.</div>
+      <div class="answer-row">Es bleiben <span class="answer-line"></span> Kekse übrig.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 49</div>
+      <div class="q-text">In der Bibliothek stehen <strong>2 Kisten</strong> mit je <strong>9 Büchern</strong> und <strong>7 Kisten</strong> mit je <strong>8 Büchern</strong>. Wie viele Bücher sind das?</div>
+      <div class="hint">Tipp: Beide Gruppen getrennt ausrechnen, dann addieren.</div>
+      <div class="answer-row">Es sind <span class="answer-line"></span> Bücher insgesamt.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 50</div>
+      <div class="q-text"><strong>45 Aufkleber</strong> werden gleichmäßig in <strong>5 Hefte</strong> geklebt. In jedes Heft kommen noch <strong>6 Aufkleber</strong> dazu. Wie viele Aufkleber sind jetzt in jedem Heft?</div>
+      <div class="hint">Tipp: Erst teilen, dann dazuzählen.</div>
+      <div class="answer-row">In jedem Heft sind <span class="answer-line"></span> Aufkleber.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 51</div>
+      <div class="q-text">Auf <strong>4 Tellern</strong> liegen je <strong>7 Kekse</strong>. Auf <strong>5 weiteren Tellern</strong> liegen je <strong>6 Kekse</strong>. Wie viele Kekse sind das insgesamt?</div>
+      <div class="hint">Tipp: Beide Gruppen getrennt ausrechnen, dann addieren.</div>
+      <div class="answer-row">Es sind <span class="answer-line"></span> Kekse insgesamt.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 52</div>
+      <div class="q-text"><strong>63 Lollis</strong> werden gleichmäßig an <strong>7 Kinder</strong> verteilt. Jedes Kind bekommt noch <strong>3 Lollis</strong> extra. Wie viele Lollis hat jedes Kind am Ende?</div>
+      <div class="hint">Tipp: Erst teilen, dann dazuzählen.</div>
+      <div class="answer-row">Jedes Kind hat <span class="answer-line"></span> Lollis.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 53</div>
+      <div class="q-text">In <strong>9 Tüten</strong> sind je <strong>5 Murmeln</strong>. Es werden <strong>11 Murmeln</strong> verloren. Wie viele Murmeln bleiben?</div>
+      <div class="hint">Tipp: Erst alle Murmeln zählen, dann abziehen.</div>
+      <div class="answer-row">Es bleiben <span class="answer-line"></span> Murmeln.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 54</div>
+      <div class="q-text">Lea hat <strong>6 Boxen</strong> mit je <strong>8 Stiften</strong> und <strong>3 Boxen</strong> mit je <strong>7 Stiften</strong>. Wie viele Stifte hat sie insgesamt?</div>
+      <div class="hint">Tipp: Beide Gruppen getrennt ausrechnen, dann addieren.</div>
+      <div class="answer-row">Lea hat <span class="answer-line"></span> Stifte.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 55</div>
+      <div class="q-text"><strong>56 Schokolinsen</strong> werden gleichmäßig auf <strong>7 Kinder</strong> verteilt. Jedes Kind bekommt noch <strong>5 Schokolinsen</strong> dazu. Wie viele hat jedes Kind?</div>
+      <div class="hint">Tipp: Erst teilen, dann dazuzählen.</div>
+      <div class="answer-row">Jedes Kind hat <span class="answer-line"></span> Schokolinsen.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 56</div>
+      <div class="q-text">In <strong>7 Päckchen</strong> sind je <strong>8 Karten</strong>. Es werden <strong>19 Karten</strong> weggegeben. Wie viele Karten bleiben übrig?</div>
+      <div class="hint">Tipp: Erst alle Karten zählen, dann abziehen.</div>
+      <div class="answer-row">Es bleiben <span class="answer-line"></span> Karten.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 57</div>
+      <div class="q-text">In <strong>4 Kisten</strong> sind je <strong>9 Äpfel</strong>. In <strong>5 weiteren Kisten</strong> sind je <strong>4 Äpfel</strong>. Wie viele Äpfel sind das insgesamt?</div>
+      <div class="hint">Tipp: Beide Gruppen getrennt ausrechnen, dann addieren.</div>
+      <div class="answer-row">Es sind <span class="answer-line"></span> Äpfel insgesamt.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 58</div>
+      <div class="q-text"><strong>81 Nüsse</strong> werden gleichmäßig in <strong>9 Beutel</strong> gefüllt. In jeden Beutel kommen noch <strong>4 Nüsse</strong> dazu. Wie viele Nüsse sind in jedem Beutel?</div>
+      <div class="hint">Tipp: Erst teilen, dann dazuzählen.</div>
+      <div class="answer-row">In jedem Beutel sind <span class="answer-line"></span> Nüsse.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 59</div>
+      <div class="q-text">In <strong>5 Tüten</strong> sind je <strong>9 Bonbons</strong>. Es werden <strong>13 Bonbons</strong> gegessen. Wie viele Bonbons bleiben?</div>
+      <div class="hint">Tipp: Erst alle Bonbons zählen, dann abziehen.</div>
+      <div class="answer-row">Es bleiben <span class="answer-line"></span> Bonbons.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 60</div>
+      <div class="q-text">Sara hat <strong>8 Schachteln</strong> mit je <strong>6 Perlen</strong> und <strong>2 Schachteln</strong> mit je <strong>9 Perlen</strong>. Wie viele Perlen hat sie insgesamt?</div>
+      <div class="hint">Tipp: Beide Gruppen getrennt ausrechnen, dann addieren.</div>
+      <div class="answer-row">Sara hat <span class="answer-line"></span> Perlen.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 61</div>
+      <div class="q-text"><strong>48 Steine</strong> werden gleichmäßig auf <strong>6 Haufen</strong> verteilt. Auf jeden Haufen kommen noch <strong>7 Steine</strong> dazu. Wie viele Steine liegen auf jedem Haufen?</div>
+      <div class="hint">Tipp: Erst teilen, dann dazuzählen.</div>
+      <div class="answer-row">Auf jedem Haufen liegen <span class="answer-line"></span> Steine.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 62</div>
+      <div class="q-text">In <strong>6 Körben</strong> liegen je <strong>7 Eier</strong>. Es sind <strong>8 Eier</strong> zerbrochen. Wie viele Eier sind heil?</div>
+      <div class="hint">Tipp: Erst alle Eier zählen, dann die zerbrochenen abziehen.</div>
+      <div class="answer-row">Es sind <span class="answer-line"></span> Eier heil.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 63</div>
+      <div class="q-text">In <strong>3 Beuteln</strong> sind je <strong>8 Münzen</strong>. In <strong>7 weiteren Beuteln</strong> sind je <strong>5 Münzen</strong>. Wie viele Münzen sind das?</div>
+      <div class="hint">Tipp: Beide Gruppen getrennt ausrechnen, dann addieren.</div>
+      <div class="answer-row">Es sind <span class="answer-line"></span> Münzen insgesamt.</div>
+    </div>
+
+    <div class="q">
+      <div class="q-num">Aufgabe 64</div>
+      <div class="q-text"><strong>35 Federn</strong> werden gleichmäßig in <strong>5 Gläser</strong> gesteckt. In jedes Glas kommen noch <strong>4 Federn</strong> dazu. Wie viele Federn sind in jedem Glas?</div>
+      <div class="hint">Tipp: Erst teilen, dann dazuzählen.</div>
+      <div class="answer-row">In jedem Glas sind <span class="answer-line"></span> Federn.</div>
+    </div>
+
+  </div><!-- /problems stufe 5 -->
+
+</div><!-- /page 2 -->
+
+
+<!-- ═══════════════════════════════════════════ SEITE 3: LÖSUNGEN ═══ -->
+<div class="page" id="answerKey">
+
+  <div class="sheet-header">
+    <div>
+      <div class="sheet-title">🔒 Lösungen — nur für Eltern / Lehrer</div>
+      <div class="sheet-sub">Knobelaufgaben 2 · Aufgaben 1 bis 64</div>
+    </div>
+  </div>
+
+  <div class="ak-section">
+    <div class="ak-level">Stufe 4 — Teilen &amp; Umkehraufgaben (Aufgaben 1–32)</div>
+    <div class="ak-grid">
+      <div class="ak-item"><span>1</span>9 <small>(81÷9)</small></div>
+      <div class="ak-item"><span>2</span>9 <small>(36÷4)</small></div>
+      <div class="ak-item"><span>3</span>7 <small>(49÷7)</small></div>
+      <div class="ak-item"><span>4</span>8 <small>(64÷8)</small></div>
+      <div class="ak-item"><span>5</span>9 <small>(45÷5)</small></div>
+      <div class="ak-item"><span>6</span>8 <small>(24÷3)</small></div>
+      <div class="ak-item"><span>7</span>7 <small>(56÷8)</small></div>
+      <div class="ak-item"><span>8</span>5 <small>(30÷6)</small></div>
+      <div class="ak-item"><span>9</span>9 <small>(72÷8)</small></div>
+      <div class="ak-item"><span>10</span>9 <small>(18÷2)</small></div>
+      <div class="ak-item"><span>11</span>7 <small>(42÷6)</small></div>
+      <div class="ak-item"><span>12</span>8 <small>(32÷4)</small></div>
+      <div class="ak-item"><span>13</span>9 <small>(63÷7)</small></div>
+      <div class="ak-item"><span>14</span>9 <small>(27÷3)</small></div>
+      <div class="ak-item"><span>15</span>8 <small>(40÷5)</small></div>
+      <div class="ak-item"><span>16</span>6 <small>(48÷8)</small></div>
+      <div class="ak-item"><span>17</span>10 <small>(20÷2)</small></div>
+      <div class="ak-item"><span>18</span>5 <small>(35÷7)</small></div>
+      <div class="ak-item"><span>19</span>9 <small>(54÷6)</small></div>
+      <div class="ak-item"><span>20</span>7 <small>(28÷4)</small></div>
+      <div class="ak-item"><span>21</span>10 <small>(60÷6)</small></div>
+      <div class="ak-item"><span>22</span>10 <small>(90÷9)</small></div>
+      <div class="ak-item"><span>23</span>9 <small>(36÷4)</small></div>
+      <div class="ak-item"><span>24</span>10 <small>(70÷7)</small></div>
+      <div class="ak-item"><span>25</span>8 <small>(48÷6)</small></div>
+      <div class="ak-item"><span>26</span>5 <small>(25÷5)</small></div>
+      <div class="ak-item"><span>27</span>8 <small>(16÷2)</small></div>
+      <div class="ak-item"><span>28</span>7 <small>(14÷2)</small></div>
+      <div class="ak-item"><span>29</span>10 <small>(50÷5)</small></div>
+      <div class="ak-item"><span>30</span>10 <small>(80÷8)</small></div>
+      <div class="ak-item"><span>31</span>8 <small>(24÷3)</small></div>
+      <div class="ak-item"><span>32</span>9 <small>(36÷4)</small></div>
+    </div>
+  </div>
+
+  <div class="ak-section" style="margin-top:10pt">
+    <div class="ak-level">Stufe 5 — Knobel-Aufgaben (zwei Schritte) (Aufgaben 33–64)</div>
+    <div class="ak-grid">
+      <div class="ak-item"><span>33</span>38 <small>(5×6+8)</small></div>
+      <div class="ak-item"><span>34</span>19 <small>(7×4−9)</small></div>
+      <div class="ak-item"><span>35</span>12 <small>(48÷8+6)</small></div>
+      <div class="ak-item"><span>36</span>62 <small>(6×7+4×5)</small></div>
+      <div class="ak-item"><span>37</span>42 <small>(9×6−12)</small></div>
+      <div class="ak-item"><span>38</span>13 <small>(54÷9+7)</small></div>
+      <div class="ak-item"><span>39</span>57 <small>(3×9+5×6)</small></div>
+      <div class="ak-item"><span>40</span>49 <small>(8×8−15)</small></div>
+      <div class="ak-item"><span>41</span>11 <small>(36÷4+2)</small></div>
+      <div class="ak-item"><span>42</span>76 <small>(7×7+3×9)</small></div>
+      <div class="ak-item"><span>43</span>62 <small>(4×8+6×5)</small></div>
+      <div class="ak-item"><span>44</span>12 <small>(72÷9+4)</small></div>
+      <div class="ak-item"><span>45</span>40 <small>(6×9−14)</small></div>
+      <div class="ak-item"><span>46</span>47 <small>(5×7+3×4)</small></div>
+      <div class="ak-item"><span>47</span>15 <small>(60÷6+5)</small></div>
+      <div class="ak-item"><span>48</span>28 <small>(8×6−20)</small></div>
+      <div class="ak-item"><span>49</span>74 <small>(2×9+7×8)</small></div>
+      <div class="ak-item"><span>50</span>15 <small>(45÷5+6)</small></div>
+      <div class="ak-item"><span>51</span>58 <small>(4×7+5×6)</small></div>
+      <div class="ak-item"><span>52</span>12 <small>(63÷7+3)</small></div>
+      <div class="ak-item"><span>53</span>34 <small>(9×5−11)</small></div>
+      <div class="ak-item"><span>54</span>69 <small>(6×8+3×7)</small></div>
+      <div class="ak-item"><span>55</span>13 <small>(56÷7+5)</small></div>
+      <div class="ak-item"><span>56</span>37 <small>(7×8−19)</small></div>
+      <div class="ak-item"><span>57</span>56 <small>(4×9+5×4)</small></div>
+      <div class="ak-item"><span>58</span>13 <small>(81÷9+4)</small></div>
+      <div class="ak-item"><span>59</span>32 <small>(5×9−13)</small></div>
+      <div class="ak-item"><span>60</span>66 <small>(8×6+2×9)</small></div>
+      <div class="ak-item"><span>61</span>15 <small>(48÷6+7)</small></div>
+      <div class="ak-item"><span>62</span>34 <small>(6×7−8)</small></div>
+      <div class="ak-item"><span>63</span>59 <small>(3×8+7×5)</small></div>
+      <div class="ak-item"><span>64</span>11 <small>(35÷5+4)</small></div>
+    </div>
+  </div>
+
+</div><!-- /page 3 -->
+
+<script>
+  function toggleAK() {
+    const ak  = document.getElementById('answerKey');
+    const btn = document.getElementById('akBtn');
+    if (ak.style.display === 'none') {
+      ak.style.display = '';
+      btn.textContent = '🔒 Lösungen ausblenden';
+    } else {
+      ak.style.display = 'none';
+      btn.textContent = '🔓 Lösungen anzeigen';
+    }
+  }
+</script>
+
+</body>
+</html>

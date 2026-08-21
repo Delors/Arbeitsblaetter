@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Zahlenrätsel – Blatt 2</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f0ede8;
+    color: #1a1a1a;
+  }
+
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    background: #fff;
+    margin: 12mm auto;
+    padding: 14mm 16mm 16mm;
+    box-shadow: 0 2px 16px rgba(0,0,0,0.13);
+  }
+
+  /* ── Header ── */
+  .sheet-header {
+    border-bottom: 2.5pt solid #1a1a1a;
+    padding-bottom: 6pt;
+    margin-bottom: 10pt;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .sheet-title  { font-size: 17pt; font-weight: 700; letter-spacing: -0.02em; }
+  .sheet-sub    { font-size: 10pt; color: #555; margin-top: 2pt; }
+  .sheet-meta   { font-size: 9.5pt; text-align: right; line-height: 2; color: #333; }
+  .meta-line    { border-bottom: 1pt solid #666; display: inline-block; min-width: 110pt; }
+
+  .intro {
+    font-size: 9.5pt;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 10pt;
+  }
+
+  /* ── Section label ── */
+  .section-label {
+    font-size: 10pt;
+    font-weight: 700;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    margin: 12pt 0 7pt;
+    padding-bottom: 3pt;
+    border-bottom: 0.7pt solid #ddd;
+  }
+
+  /* ── Question grid ── */
+  .questions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7pt 14pt;
+  }
+
+  .q-card {
+    border: 0.7pt solid #ddd;
+    border-radius: 5pt;
+    padding: 8pt 10pt 9pt;
+    background: #fafafa;
+  }
+  .q-num {
+    font-size: 8pt;
+    font-weight: 700;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 4pt;
+  }
+  .q-text {
+    font-size: 11pt;
+    line-height: 1.55;
+    color: #1a1a1a;
+    margin-bottom: 8pt;
+  }
+  .q-text strong { font-weight: 700; }
+  .answer-row {
+    display: flex;
+    align-items: center;
+    gap: 6pt;
+    font-size: 10pt;
+    color: #666;
+  }
+  .answer-line {
+    border-bottom: 1pt solid #555;
+    display: inline-block;
+    min-width: 55pt;
+    height: 14pt;
+  }
+
+  /* ── Answer key ── */
+  .answer-key {
+    margin-top: 14pt;
+    border-top: 1pt dashed #bbb;
+    padding-top: 10pt;
+  }
+  .ak-title {
+    font-size: 9pt;
+    font-weight: 700;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    margin-bottom: 7pt;
+  }
+  .ak-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 5pt;
+    font-size: 9pt;
+  }
+  .ak-item {
+    background: #f5f5f5;
+    border: 0.5pt solid #e0e0e0;
+    border-radius: 4pt;
+    padding: 4pt 7pt;
+    text-align: center;
+    color: #222;
+  }
+  .ak-item span { color: #aaa; display: block; font-size: 8pt; }
+
+  /* ── Print controls ── */
+  .print-controls {
+    text-align: center;
+    margin: 0 0 10mm;
+  }
+  .print-controls button {
+    font-family: inherit;
+    font-size: 11pt;
+    padding: 7pt 18pt;
+    cursor: pointer;
+    border: 1pt solid #666;
+    border-radius: 4pt;
+    background: #fff;
+    margin: 0 4pt;
+  }
+  .print-controls button:hover { background: #f5f5f5; }
+
+  @media print {
+    body { background: #fff; }
+    .page { margin: 0; padding: 12mm 14mm 14mm; box-shadow: none; width: 100%; }
+    .print-controls { display: none !important; }
+    .q-card { background: #fff; border-color: #ccc; }
+  }
+</style>
+</head>
+<body>
+
+<div class="print-controls">
+  <button onclick="window.print()">🖨 Drucken</button>
+  <button id="akBtn" onclick="toggleAK()">🔒 Lösungen ausblenden</button>
+</div>
+
+<div class="page">
+
+  <div class="sheet-header">
+    <div>
+      <div class="sheet-title">🔢 Zahlenrätsel – Blatt 2</div>
+      <div class="sheet-sub">1×1, Plus, Minus &amp; Geteilt · 2. Klasse</div>
+    </div>
+  </div>
+
+  <div class="intro">
+    Lies jede Aufgabe genau. Schreib deine Antwort auf die Linie. Viel Erfolg! ✏️
+  </div>
+
+  <div class="section-label">Welche Zahl bin ich?</div>
+
+  <div class="questions">
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 1</div>
+      <div class="q-text">
+        Ich liege zwischen <strong>60</strong> und <strong>70</strong>.<br>
+        Ich bin eine Zahl aus dem <strong>1×8</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 2</div>
+      <div class="q-text">
+        Ich liege zwischen <strong>39</strong> und <strong>43</strong>.<br>
+        Ich bin eine Zahl aus dem <strong>1×4</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 3</div>
+      <div class="q-text">
+        Wenn ich <strong>24</strong> dazuzähle,<br>
+        ergibt das <strong>71</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 4</div>
+      <div class="q-text">
+        Ich liege zwischen <strong>53</strong> und <strong>61</strong>.<br>
+        Ich bin eine Zahl aus dem <strong>1×9</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 5</div>
+      <div class="q-text">
+        Wenn man mich durch <strong>7</strong> teilt,<br>
+        erhält man <strong>8</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 6</div>
+      <div class="q-text">
+        Ich liege zwischen <strong>17</strong> und <strong>23</strong>.<br>
+        Ich bin eine Zahl aus dem <strong>1×6</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 7</div>
+      <div class="q-text">
+        Wenn ich <strong>33</strong> abziehe,<br>
+        ergibt das <strong>29</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 8</div>
+      <div class="q-text">
+        Ich liege zwischen <strong>75</strong> und <strong>83</strong>.<br>
+        Ich bin eine Zahl aus dem <strong>1×9</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 9</div>
+      <div class="q-text">
+        Ich bin das <strong>Doppelte</strong> von <strong>24</strong>.<br><br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 10</div>
+      <div class="q-text">
+        Ich liege zwischen <strong>29</strong> und <strong>35</strong>.<br>
+        Ich bin eine Zahl aus dem <strong>1×8</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 11</div>
+      <div class="q-text">
+        Wenn man mich durch <strong>6</strong> teilt,<br>
+        erhält man <strong>7</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 12</div>
+      <div class="q-text">
+        Ich liege zwischen <strong>44</strong> und <strong>52</strong>.<br>
+        Ich bin eine Zahl aus dem <strong>1×7</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 13</div>
+      <div class="q-text">
+        Wenn ich <strong>46</strong> dazuzähle,<br>
+        ergibt das <strong>83</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 14</div>
+      <div class="q-text">
+        Ich liege zwischen <strong>61</strong> und <strong>69</strong>.<br>
+        Ich bin eine Zahl aus dem <strong>1×7</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 15</div>
+      <div class="q-text">
+        Wenn man mich durch <strong>4</strong> teilt,<br>
+        erhält man <strong>9</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 16</div>
+      <div class="q-text">
+        Ich liege zwischen <strong>87</strong> und <strong>95</strong>.<br>
+        Ich bin eine Zahl aus dem <strong>1×9</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 17</div>
+      <div class="q-text">
+        Wenn man mich durch <strong>5</strong> teilt,<br>
+        erhält man <strong>8</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+    <div class="q-card">
+      <div class="q-num">Aufgabe 18</div>
+      <div class="q-text">
+        Ich liege zwischen <strong>22</strong> und <strong>28</strong>.<br>
+        Ich bin eine Zahl aus dem <strong>1×9</strong>.<br>
+        Welche Zahl bin ich?
+      </div>
+      <div class="answer-row">Meine Zahl: <span class="answer-line"></span></div>
+    </div>
+
+  </div><!-- /questions -->
+
+  <!-- ── Answer key ── -->
+  <div class="answer-key" id="answerKey">
+    <div class="ak-title">🔒 Lösungen — nur für Eltern / Lehrer</div>
+    <div class="ak-grid">
+      <div class="ak-item"><span>1</span>64</div>
+      <div class="ak-item"><span>2</span>40</div>
+      <div class="ak-item"><span>3</span>47</div>
+      <div class="ak-item"><span>4</span>54</div>
+      <div class="ak-item"><span>5</span>56</div>
+      <div class="ak-item"><span>6</span>18</div>
+      <div class="ak-item"><span>7</span>62</div>
+      <div class="ak-item"><span>8</span>81</div>
+      <div class="ak-item"><span>9</span>48</div>
+      <div class="ak-item"><span>10</span>32</div>
+      <div class="ak-item"><span>11</span>42</div>
+      <div class="ak-item"><span>12</span>49</div>
+      <div class="ak-item"><span>13</span>37</div>
+      <div class="ak-item"><span>14</span>63</div>
+      <div class="ak-item"><span>15</span>36</div>
+      <div class="ak-item"><span>16</span>90</div>
+      <div class="ak-item"><span>17</span>40</div>
+      <div class="ak-item"><span>18</span>27</div>
+    </div>
+  </div>
+
+</div><!-- /page -->
+
+<script>
+  function toggleAK() {
+    const ak  = document.getElementById('answerKey');
+    const btn = document.getElementById('akBtn');
+    if (ak.style.display === 'none') {
+      ak.style.display = '';
+      btn.textContent = '🔒 Lösungen ausblenden';
+    } else {
+      ak.style.display = 'none';
+      btn.textContent = '🔓 Lösungen anzeigen';
+    }
+  }
+</script>
+</body>
+</html>

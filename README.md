@@ -4,4 +4,4 @@ In diesem Verzeichnis befinden sich zusätzliche Übungsblätter für die Themen
 
 # KI-Verwendung
 
-Die meisten der Übungsblätter wurden ganz oder teilweise mit KI erstellt, wurden danach aber explizit kontrolliert und überarbeitet.
+Die meisten der Übungsblätter wurden ganz oder teilweise mit KI (Claude, ChatGPT, Kimi, Qwen, Gemini, Gemma etc.) erstellt, wurden danach aber explizit kontrolliert und überarbeitet.

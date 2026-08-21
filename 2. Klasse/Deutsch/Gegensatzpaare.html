@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Arbeitsblatt: Adjektiv-Gegensatzpaare</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 26px 38px;
+  color: #111;
+  background: white;
+  font-size: 0.94rem;
+  line-height: 1.45;
+}
+h1 { font-size: 1.45rem; font-weight: bold; text-align: center; margin-bottom: 4px; }
+.subtitle { text-align: center; font-style: italic; color: #444; font-size: 0.92rem; margin-bottom: 18px; }
+
+h2 {
+  font-size: 1.05rem; font-weight: bold;
+  background: #f0f0f0;
+  border-left: 4px solid #555;
+  padding: 5px 10px;
+  margin-top: 20px; margin-bottom: 6px;
+}
+.instr { font-size: 0.88rem; color: #333; margin-bottom: 8px; }
+
+/* ── TEIL 1: Matching ──────────────────────────── */
+.match-wrap {
+  display: grid;
+  grid-template-columns: 28% 1fr 28%;
+  margin: 10px 0 4px 0;
+}
+.match-col { display: flex; flex-direction: column; }
+.match-item {
+  height: 34px; display: flex; align-items: center;
+  font-size: 0.95rem;
+}
+.match-left  .match-item { padding-left: 8px; font-weight: bold; }
+.match-right .match-item { padding-right: 8px; }
+.match-mid {
+  border-left: 1.5px dashed #bbb;
+  border-right: 1.5px dashed #bbb;
+  margin: 0 14px;
+  background: repeating-linear-gradient(
+    to bottom,
+    transparent 0px, transparent 32px,
+    #ddd 32px, #ddd 34px
+  );
+}
+
+/* ── TEIL 2 + 3: Tables ────────────────────────── */
+.wortkasten {
+  border: 1.5px solid #888;
+  border-radius: 5px;
+  padding: 7px 12px;
+  font-size: 0.92rem;
+  background: #fafafa;
+  margin-bottom: 10px;
+  line-height: 1.9;
+}
+.wortkasten::before { content: "Wörterkasten: "; font-weight: bold; }
+
+table.ex { width: 100%; border-collapse: collapse; margin-bottom: 4px; font-size: 0.93rem; }
+table.ex th {
+  background: #e8e8e8; text-align: left;
+  padding: 5px 8px; border: 1.5px solid #999;
+  font-size: 0.85rem; font-weight: bold;
+}
+table.ex td { padding: 6px 8px; border: 1.5px solid #bbb; }
+table.ex td.sym { width: 30px; text-align: center; color: #555; border-left: none; border-right: none; }
+table.ex td.blank { min-width: 110px; border-bottom: 2px solid #333; border-top: none; border-left: none; border-right: none; background: transparent; }
+table.ex td.adj { font-weight: 500; width: 110px; }
+table.ex td.sep { width: 18px; border: none; background: #f5f5f5; }
+
+/* ── SONDERFALL ────────────────────────────────── */
+.sonderfall {
+  border: 2px solid #555;
+  border-radius: 6px;
+  padding: 10px 14px;
+  margin-top: 18px;
+  background: #fefefe;
+  font-size: 0.9rem;
+}
+.sonderfall .sf-title {
+  font-weight: bold; font-size: 0.95rem; margin-bottom: 6px;
+}
+.sonderfall .sf-row {
+  display: flex; align-items: baseline; gap: 10px; margin-bottom: 5px; padding-left: 6px;
+}
+.sf-label { min-width: 160px; }
+.sf-example { color: #444; font-style: italic; }
+
+/* ── SOLUTIONS ─────────────────────────────────── */
+.loesungen {
+  margin-top: 40px; padding-top: 18px;
+  border-top: 3px dashed #888;
+}
+.loesungen h2 { background: #e0e0e0; }
+
+.loes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0;
+  margin-top: 8px;
+  border: 1.5px solid #aaa;
+  border-radius: 4px;
+  overflow: hidden;
+  font-size: 0.87rem;
+}
+.loes-group { padding: 8px 10px; border-right: 1.5px solid #ccc; }
+.loes-group:last-child { border-right: none; }
+.loes-group h4 {
+  font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em;
+  color: #666; border-bottom: 1px solid #ddd; padding-bottom: 3px; margin-bottom: 5px;
+}
+.loes-pair { display: flex; gap: 4px; margin-bottom: 3px; }
+.loes-pair .l { font-weight: bold; min-width: 75px; }
+.loes-pair .r { color: #222; }
+
+.loes-match { font-size: 0.87rem; columns: 2; gap: 20px; margin-top: 6px; }
+.loes-match li { margin-bottom: 2px; list-style: none; padding-left: 4px; }
+.loes-match li::before { content: "→ "; color: #666; }
+
+@media print {
+  body { padding: 14px 28px; font-size: 0.91rem; }
+  .loesungen { page-break-before: always; }
+  h2 { break-after: avoid; }
+}
+</style>
+</head>
+<body>
+
+<h1>Adjektiv-Gegensatzpaare</h1>
+<p class="subtitle">Jedes Adjektiv hat ein Gegenteil – finde es!</p>
+
+<!-- ═══════════════════════════════════════════ -->
+<h2>Teil 1 – Verbinde die Gegensätze!</h2>
+<p class="instr">Ziehe eine Linie von jedem Adjektiv links zu seinem Gegenteil rechts.</p>
+
+<div class="match-wrap">
+  <div class="match-col match-left">
+    <div class="match-item">1. &nbsp; groß</div>
+    <div class="match-item">2. &nbsp; lang</div>
+    <div class="match-item">3. &nbsp; heiß</div>
+    <div class="match-item">4. &nbsp; laut</div>
+    <div class="match-item">5. &nbsp; weich</div>
+    <div class="match-item">6. &nbsp; nass</div>
+    <div class="match-item">7. &nbsp; voll</div>
+    <div class="match-item">8. &nbsp; hoch</div>
+    <div class="match-item">9. &nbsp; stark</div>
+    <div class="match-item">10. &nbsp; süß</div>
+  </div>
+  <div class="match-mid"></div>
+  <div class="match-col match-right">
+    <div class="match-item">a) &nbsp; kurz</div>
+    <div class="match-item">b) &nbsp; hart</div>
+    <div class="match-item">c) &nbsp; klein</div>
+    <div class="match-item">d) &nbsp; sauer</div>
+    <div class="match-item">e) &nbsp; niedrig</div>
+    <div class="match-item">f) &nbsp; leise</div>
+    <div class="match-item">g) &nbsp; leer</div>
+    <div class="match-item">h) &nbsp; trocken</div>
+    <div class="match-item">i) &nbsp; kalt</div>
+    <div class="match-item">j) &nbsp; schwach</div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════ -->
+<h2>Teil 2 – Schreibe das Gegenteil! &nbsp;<span style="font-weight:normal;font-size:0.88rem;">(mit Wörterkasten)</span></h2>
+<p class="instr">Suche das passende Gegenteil aus dem Wörterkasten und trage es ein.</p>
+
+<div class="wortkasten">
+  neu &nbsp;·&nbsp; langsam &nbsp;·&nbsp; dunkel &nbsp;·&nbsp; hässlich &nbsp;·&nbsp; leicht &nbsp;·&nbsp;
+  dünn &nbsp;·&nbsp; schmutzig &nbsp;·&nbsp; traurig &nbsp;·&nbsp; stumpf &nbsp;·&nbsp; schmal
+</div>
+
+<table class="ex">
+  <tr>
+    <th style="width:110px">Adjektiv</th><th style="width:30px"></th><th>Gegenteil</th>
+    <td class="sep"></td>
+    <th style="width:110px">Adjektiv</th><th style="width:30px"></th><th>Gegenteil</th>
+  </tr>
+  <tr>
+    <td class="adj">alt</td><td class="sym">↔</td><td class="blank"></td>
+    <td class="sep"></td>
+    <td class="adj">schwer</td><td class="sym">↔</td><td class="blank"></td>
+  </tr>
+  <tr>
+    <td class="adj">schnell</td><td class="sym">↔</td><td class="blank"></td>
+    <td class="sep"></td>
+    <td class="adj">dick</td><td class="sym">↔</td><td class="blank"></td>
+  </tr>
+  <tr>
+    <td class="adj">hell</td><td class="sym">↔</td><td class="blank"></td>
+    <td class="sep"></td>
+    <td class="adj">sauber</td><td class="sym">↔</td><td class="blank"></td>
+  </tr>
+  <tr>
+    <td class="adj">schön</td><td class="sym">↔</td><td class="blank"></td>
+    <td class="sep"></td>
+    <td class="adj">fröhlich</td><td class="sym">↔</td><td class="blank"></td>
+  </tr>
+  <tr>
+    <td class="adj">spitz</td><td class="sym">↔</td><td class="blank"></td>
+    <td class="sep"></td>
+    <td class="adj">breit</td><td class="sym">↔</td><td class="blank"></td>
+  </tr>
+</table>
+
+<!-- ═══════════════════════════════════════════ -->
+<h2>Teil 3 – Schreibe das Gegenteil – ganz ohne Hilfe!</h2>
+<p class="instr">Kein Wörterkasten – schreibe das Gegenteil aus dem Kopf!</p>
+
+<table class="ex">
+  <tr>
+    <th style="width:120px">Adjektiv</th><th style="width:30px"></th><th>Gegenteil</th>
+    <td class="sep"></td>
+    <th style="width:120px">Adjektiv</th><th style="width:30px"></th><th>Gegenteil</th>
+  </tr>
+  <tr>
+    <td class="adj">fleißig</td><td class="sym">↔</td><td class="blank"></td>
+    <td class="sep"></td>
+    <td class="adj">offen</td><td class="sym">↔</td><td class="blank"></td>
+  </tr>
+  <tr>
+    <td class="adj">mutig</td><td class="sym">↔</td><td class="blank"></td>
+    <td class="sep"></td>
+    <td class="adj">freundlich</td><td class="sym">↔</td><td class="blank"></td>
+  </tr>
+  <tr>
+    <td class="adj">gerade</td><td class="sym">↔</td><td class="blank"></td>
+    <td class="sep"></td>
+    <td class="adj">warm</td><td class="sym">↔</td><td class="blank"></td>
+  </tr>
+</table>
+
+<!-- ═══════════════════════════════════════════ -->
+<div class="sonderfall">
+  <div class="sf-title">⭐ Besonderheit: Das Adjektiv „alt" hat zwei Gegenteile!</div>
+  <div class="sf-row">
+    <span class="sf-label">alt ↔ <strong>neu</strong> &nbsp;(für Dinge):</span>
+    <span class="sf-example">das <em>alte</em> Fahrrad – das <em>neue</em> Fahrrad</span>
+  </div>
+  <div class="sf-row">
+    <span class="sf-label">alt ↔ <strong>jung</strong> &nbsp;(für Lebewesen):</span>
+    <span class="sf-example">die <em>alte</em> Katze – die <em>junge</em> Katze</span>
+  </div>
+  <p style="margin-top:6px;font-size:0.86rem;color:#555;">
+    Schreibe selbst je einen Satz: &nbsp;
+    <span style="border-bottom:1.5px solid #444;display:inline-block;width:260px;">&nbsp;</span>
+  </p>
+  <p style="margin-top:8px;font-size:0.86rem;color:#555;">
+    &nbsp;<span style="border-bottom:1.5px solid #444;display:inline-block;width:330px;">&nbsp;</span>
+  </p>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!-- LÖSUNGEN                                                    -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+<div class="loesungen">
+  <h2>Lösungen &nbsp;<span style="font-weight:normal;font-size:0.82rem;">(bitte vor dem Ausdrucken abtrennen)</span></h2>
+
+  <p style="font-size:0.85rem;margin:6px 0 10px 0;color:#444;">
+    Alle 26 Gegensatzpaare, die in diesem Arbeitsblatt vorkommen – geordnet nach Thema.
+  </p>
+
+  <div class="loes-grid">
+    <div class="loes-group">
+      <h4>Größe &amp; Menge</h4>
+      <div class="loes-pair"><span class="l">groß</span><span class="r">↔ klein</span></div>
+      <div class="loes-pair"><span class="l">lang</span><span class="r">↔ kurz</span></div>
+      <div class="loes-pair"><span class="l">hoch</span><span class="r">↔ niedrig</span></div>
+      <div class="loes-pair"><span class="l">breit</span><span class="r">↔ schmal</span></div>
+      <div class="loes-pair"><span class="l">dick</span><span class="r">↔ dünn</span></div>
+      <div class="loes-pair"><span class="l">voll</span><span class="r">↔ leer</span></div>
+      <div class="loes-pair"><span class="l">schwer</span><span class="r">↔ leicht</span></div>
+      <h4 style="margin-top:8px">Temperatur &amp; Nässe</h4>
+      <div class="loes-pair"><span class="l">heiß</span><span class="r">↔ kalt</span></div>
+      <div class="loes-pair"><span class="l">warm</span><span class="r">↔ kühl / kalt</span></div>
+      <div class="loes-pair"><span class="l">nass</span><span class="r">↔ trocken</span></div>
+    </div>
+
+    <div class="loes-group">
+      <h4>Klang &amp; Licht</h4>
+      <div class="loes-pair"><span class="l">laut</span><span class="r">↔ leise</span></div>
+      <div class="loes-pair"><span class="l">hell</span><span class="r">↔ dunkel</span></div>
+      <h4 style="margin-top:8px">Material &amp; Form</h4>
+      <div class="loes-pair"><span class="l">weich</span><span class="r">↔ hart</span></div>
+      <div class="loes-pair"><span class="l">spitz</span><span class="r">↔ stumpf</span></div>
+      <div class="loes-pair"><span class="l">gerade</span><span class="r">↔ schief / krumm</span></div>
+      <h4 style="margin-top:8px">Geschmack &amp; Zustand</h4>
+      <div class="loes-pair"><span class="l">süß</span><span class="r">↔ sauer</span></div>
+      <div class="loes-pair"><span class="l">sauber</span><span class="r">↔ schmutzig</span></div>
+      <div class="loes-pair"><span class="l">stark</span><span class="r">↔ schwach</span></div>
+      <div class="loes-pair"><span class="l">offen</span><span class="r">↔ geschlossen</span></div>
+    </div>
+
+    <div class="loes-group">
+      <h4>Zeit &amp; Aussehen</h4>
+      <div class="loes-pair"><span class="l">alt</span><span class="r">↔ neu <em>(Dinge)</em></span></div>
+      <div class="loes-pair"><span class="l">alt</span><span class="r">↔ jung <em>(Lebewesen)</em></span></div>
+      <div class="loes-pair"><span class="l">schnell</span><span class="r">↔ langsam</span></div>
+      <div class="loes-pair"><span class="l">schön</span><span class="r">↔ hässlich</span></div>
+      <h4 style="margin-top:8px">Gefühle &amp; Charakter</h4>
+      <div class="loes-pair"><span class="l">fröhlich</span><span class="r">↔ traurig</span></div>
+      <div class="loes-pair"><span class="l">fleißig</span><span class="r">↔ faul</span></div>
+      <div class="loes-pair"><span class="l">mutig</span><span class="r">↔ ängstlich</span></div>
+      <div class="loes-pair"><span class="l">freundlich</span><span class="r">↔ unfreundlich</span></div>
+    </div>
+  </div>
+
+  <p style="font-size:0.85rem;margin-top:12px;font-weight:bold;">Teil 1 – Zuordnung:</p>
+  <ul class="loes-match">
+    <li>1 – c &nbsp;(groß ↔ klein)</li>
+    <li>2 – a &nbsp;(lang ↔ kurz)</li>
+    <li>3 – i &nbsp;(heiß ↔ kalt)</li>
+    <li>4 – f &nbsp;(laut ↔ leise)</li>
+    <li>5 – b &nbsp;(weich ↔ hart)</li>
+    <li>6 – h &nbsp;(nass ↔ trocken)</li>
+    <li>7 – g &nbsp;(voll ↔ leer)</li>
+    <li>8 – e &nbsp;(hoch ↔ niedrig)</li>
+    <li>9 – j &nbsp;(stark ↔ schwach)</li>
+    <li>10 – d &nbsp;(süß ↔ sauer)</li>
+  </ul>
+</div>
+
+</body>
+</html>

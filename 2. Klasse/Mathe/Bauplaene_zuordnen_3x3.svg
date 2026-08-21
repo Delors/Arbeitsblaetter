@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 297 210" width="297mm" height="210mm" font-family="'Helvetica Neue', Arial, sans-serif">
+  <rect x="0" y="0" width="297" height="210" fill="white"/>
+  <text x="13" y="15" font-size="7" font-weight="700" fill="black">Verbinde die Geb&#228;ude mit ihren Baupl&#228;nen. (3&#215;3)</text>
+  <text x="13" y="22" font-size="4.3" fill="#555">Grundfl&#228;che 3&#215;3 K&#228;stchen</text>
+  <rect x="22.91" y="28" width="39.03" height="52" fill="white" stroke="#222" stroke-width="0.35"/>
+  <polygon points="42.43,78.00 59.95,67.89 42.43,57.77 24.91,67.89" fill="white" stroke="black" stroke-width="0.25"/>
+  <line x1="48.27" y1="74.63" x2="30.75" y2="64.52" stroke="black" stroke-width="0.18"/>
+  <line x1="36.59" y1="74.63" x2="54.11" y2="64.52" stroke="black" stroke-width="0.18"/>
+  <line x1="54.11" y1="71.26" x2="36.59" y2="61.14" stroke="black" stroke-width="0.18"/>
+  <line x1="30.75" y1="71.26" x2="48.27" y2="61.14" stroke="black" stroke-width="0.18"/>
+  <polygon points="42.43,71.26 36.59,67.89 36.59,61.14 42.43,64.52" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="42.43,71.26 48.27,67.89 48.27,61.14 42.43,64.52" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="42.43,64.52 48.27,61.14 42.43,57.77 36.59,61.14" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="30.75,71.26 24.91,67.89 24.91,61.14 30.75,64.52" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="30.75,71.26 36.59,67.89 36.59,61.14 30.75,64.52" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="30.75,64.52 36.59,61.14 30.75,57.77 24.91,61.14" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="48.27,74.63 42.43,71.26 42.43,64.52 48.27,67.89" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="48.27,74.63 54.11,71.26 54.11,64.52 48.27,67.89" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="48.27,67.89 54.11,64.52 48.27,61.14 42.43,64.52" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="36.59,74.63 30.75,71.26 30.75,64.52 36.59,67.89" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="36.59,74.63 42.43,71.26 42.43,64.52 36.59,67.89" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="36.59,67.89 42.43,64.52 36.59,61.14 30.75,64.52" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <circle cx="42.43" cy="86.00" r="1.5" fill="black"/>
+  <rect x="65.34" y="28" width="39.03" height="52" fill="white" stroke="#222" stroke-width="0.35"/>
+  <polygon points="84.86,78.00 102.37,67.89 84.86,57.77 67.34,67.89" fill="white" stroke="black" stroke-width="0.25"/>
+  <line x1="90.70" y1="74.63" x2="73.18" y2="64.52" stroke="black" stroke-width="0.18"/>
+  <line x1="79.02" y1="74.63" x2="96.54" y2="64.52" stroke="black" stroke-width="0.18"/>
+  <line x1="96.54" y1="71.26" x2="79.02" y2="61.14" stroke="black" stroke-width="0.18"/>
+  <line x1="73.18" y1="71.26" x2="90.70" y2="61.14" stroke="black" stroke-width="0.18"/>
+  <polygon points="84.86,64.52 79.02,61.14 79.02,54.40 84.86,57.77" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="84.86,64.52 90.70,61.14 90.70,54.40 84.86,57.77" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="84.86,57.77 90.70,54.40 84.86,51.03 79.02,54.40" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="96.54,71.26 90.70,67.89 90.70,61.14 96.54,64.52" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="96.54,71.26 102.37,67.89 102.37,61.14 96.54,64.52" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="96.54,64.52 102.37,61.14 96.54,57.77 90.70,61.14" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="84.86,71.26 79.02,67.89 79.02,61.14 84.86,64.52" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="84.86,71.26 90.70,67.89 90.70,61.14 84.86,64.52" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="84.86,64.52 90.70,61.14 84.86,57.77 79.02,61.14" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="84.86,64.52 79.02,61.14 79.02,54.40 84.86,57.77" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="84.86,64.52 90.70,61.14 90.70,54.40 84.86,57.77" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="84.86,57.77 90.70,54.40 84.86,51.03 79.02,54.40" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="90.70,74.63 84.86,71.26 84.86,64.52 90.70,67.89" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="90.70,74.63 96.54,71.26 96.54,64.52 90.70,67.89" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="90.70,67.89 96.54,64.52 90.70,61.14 84.86,64.52" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <circle cx="84.86" cy="86.00" r="1.5" fill="black"/>
+  <rect x="107.77" y="28" width="39.03" height="52" fill="white" stroke="#222" stroke-width="0.35"/>
+  <polygon points="127.29,78.00 144.80,67.89 127.29,57.77 109.77,67.89" fill="white" stroke="black" stroke-width="0.25"/>
+  <line x1="133.12" y1="74.63" x2="115.61" y2="64.52" stroke="black" stroke-width="0.18"/>
+  <line x1="121.45" y1="74.63" x2="138.96" y2="64.52" stroke="black" stroke-width="0.18"/>
+  <line x1="138.96" y1="71.26" x2="121.45" y2="61.14" stroke="black" stroke-width="0.18"/>
+  <line x1="115.61" y1="71.26" x2="133.12" y2="61.14" stroke="black" stroke-width="0.18"/>
+  <polygon points="127.29,64.52 121.45,61.14 121.45,54.40 127.29,57.77" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="127.29,64.52 133.12,61.14 133.12,54.40 127.29,57.77" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="127.29,57.77 133.12,54.40 127.29,51.03 121.45,54.40" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="121.45,67.89 115.61,64.52 115.61,57.77 121.45,61.14" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="121.45,67.89 127.29,64.52 127.29,57.77 121.45,61.14" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="121.45,61.14 127.29,57.77 121.45,54.40 115.61,57.77" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="115.61,71.26 109.77,67.89 109.77,61.14 115.61,64.52" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="115.61,71.26 121.45,67.89 121.45,61.14 115.61,64.52" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="115.61,64.52 121.45,61.14 115.61,57.77 109.77,61.14" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="115.61,64.52 109.77,61.14 109.77,54.40 115.61,57.77" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="115.61,64.52 121.45,61.14 121.45,54.40 115.61,57.77" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="115.61,57.77 121.45,54.40 115.61,51.03 109.77,54.40" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="115.61,57.77 109.77,54.40 109.77,47.66 115.61,51.03" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="115.61,57.77 121.45,54.40 121.45,47.66 115.61,51.03" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="115.61,51.03 121.45,47.66 115.61,44.29 109.77,47.66" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <circle cx="127.29" cy="86.00" r="1.5" fill="black"/>
+  <rect x="150.20" y="28" width="39.03" height="52" fill="white" stroke="#222" stroke-width="0.35"/>
+  <polygon points="169.71,78.00 187.23,67.89 169.71,57.77 152.20,67.89" fill="white" stroke="black" stroke-width="0.25"/>
+  <line x1="175.55" y1="74.63" x2="158.04" y2="64.52" stroke="black" stroke-width="0.18"/>
+  <line x1="163.88" y1="74.63" x2="181.39" y2="64.52" stroke="black" stroke-width="0.18"/>
+  <line x1="181.39" y1="71.26" x2="163.88" y2="61.14" stroke="black" stroke-width="0.18"/>
+  <line x1="158.04" y1="71.26" x2="175.55" y2="61.14" stroke="black" stroke-width="0.18"/>
+  <polygon points="169.71,64.52 163.88,61.14 163.88,54.40 169.71,57.77" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="169.71,64.52 175.55,61.14 175.55,54.40 169.71,57.77" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="169.71,57.77 175.55,54.40 169.71,51.03 163.88,54.40" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="163.88,67.89 158.04,64.52 158.04,57.77 163.88,61.14" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="163.88,67.89 169.71,64.52 169.71,57.77 163.88,61.14" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="163.88,61.14 169.71,57.77 163.88,54.40 158.04,57.77" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="175.55,67.89 169.71,64.52 169.71,57.77 175.55,61.14" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="175.55,67.89 181.39,64.52 181.39,57.77 175.55,61.14" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="175.55,61.14 181.39,57.77 175.55,54.40 169.71,57.77" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="181.39,71.26 175.55,67.89 175.55,61.14 181.39,64.52" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="181.39,71.26 187.23,67.89 187.23,61.14 181.39,64.52" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="181.39,64.52 187.23,61.14 181.39,57.77 175.55,61.14" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="169.71,78.00 163.88,74.63 163.88,67.89 169.71,71.26" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="169.71,78.00 175.55,74.63 175.55,67.89 169.71,71.26" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="169.71,71.26 175.55,67.89 169.71,64.52 163.88,67.89" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <circle cx="169.71" cy="86.00" r="1.5" fill="black"/>
+  <rect x="192.63" y="28" width="39.03" height="52" fill="white" stroke="#222" stroke-width="0.35"/>
+  <polygon points="212.14,78.00 229.66,67.89 212.14,57.77 194.63,67.89" fill="white" stroke="black" stroke-width="0.25"/>
+  <line x1="217.98" y1="74.63" x2="200.46" y2="64.52" stroke="black" stroke-width="0.18"/>
+  <line x1="206.30" y1="74.63" x2="223.82" y2="64.52" stroke="black" stroke-width="0.18"/>
+  <line x1="223.82" y1="71.26" x2="206.30" y2="61.14" stroke="black" stroke-width="0.18"/>
+  <line x1="200.46" y1="71.26" x2="217.98" y2="61.14" stroke="black" stroke-width="0.18"/>
+  <polygon points="206.30,67.89 200.46,64.52 200.46,57.77 206.30,61.14" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="206.30,67.89 212.14,64.52 212.14,57.77 206.30,61.14" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="206.30,61.14 212.14,57.77 206.30,54.40 200.46,57.77" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="217.98,67.89 212.14,64.52 212.14,57.77 217.98,61.14" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="217.98,67.89 223.82,64.52 223.82,57.77 217.98,61.14" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="217.98,61.14 223.82,57.77 217.98,54.40 212.14,57.77" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="206.30,61.14 200.46,57.77 200.46,51.03 206.30,54.40" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="206.30,61.14 212.14,57.77 212.14,51.03 206.30,54.40" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="206.30,54.40 212.14,51.03 206.30,47.66 200.46,51.03" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="200.46,71.26 194.63,67.89 194.63,61.14 200.46,64.52" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="200.46,71.26 206.30,67.89 206.30,61.14 200.46,64.52" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="200.46,64.52 206.30,61.14 200.46,57.77 194.63,61.14" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="200.46,64.52 194.63,61.14 194.63,54.40 200.46,57.77" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="200.46,64.52 206.30,61.14 206.30,54.40 200.46,57.77" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="200.46,57.77 206.30,54.40 200.46,51.03 194.63,54.40" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="206.30,74.63 200.46,71.26 200.46,64.52 206.30,67.89" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="206.30,74.63 212.14,71.26 212.14,64.52 206.30,67.89" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="206.30,67.89 212.14,64.52 206.30,61.14 200.46,64.52" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="217.98,74.63 212.14,71.26 212.14,64.52 217.98,67.89" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="217.98,74.63 223.82,71.26 223.82,64.52 217.98,67.89" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="217.98,67.89 223.82,64.52 217.98,61.14 212.14,64.52" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <circle cx="212.14" cy="86.00" r="1.5" fill="black"/>
+  <rect x="235.05" y="28" width="39.03" height="52" fill="white" stroke="#222" stroke-width="0.35"/>
+  <polygon points="254.57,78.00 272.09,67.89 254.57,57.77 237.05,67.89" fill="white" stroke="black" stroke-width="0.25"/>
+  <line x1="260.41" y1="74.63" x2="242.89" y2="64.52" stroke="black" stroke-width="0.18"/>
+  <line x1="248.73" y1="74.63" x2="266.25" y2="64.52" stroke="black" stroke-width="0.18"/>
+  <line x1="266.25" y1="71.26" x2="248.73" y2="61.14" stroke="black" stroke-width="0.18"/>
+  <line x1="242.89" y1="71.26" x2="260.41" y2="61.14" stroke="black" stroke-width="0.18"/>
+  <polygon points="254.57,64.52 248.73,61.14 248.73,54.40 254.57,57.77" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="254.57,64.52 260.41,61.14 260.41,54.40 254.57,57.77" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="254.57,57.77 260.41,54.40 254.57,51.03 248.73,54.40" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="248.73,67.89 242.89,64.52 242.89,57.77 248.73,61.14" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="248.73,67.89 254.57,64.52 254.57,57.77 248.73,61.14" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="248.73,61.14 254.57,57.77 248.73,54.40 242.89,57.77" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="248.73,61.14 242.89,57.77 242.89,51.03 248.73,54.40" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="248.73,61.14 254.57,57.77 254.57,51.03 248.73,54.40" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="248.73,54.40 254.57,51.03 248.73,47.66 242.89,51.03" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="254.57,71.26 248.73,67.89 248.73,61.14 254.57,64.52" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="254.57,71.26 260.41,67.89 260.41,61.14 254.57,64.52" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="254.57,64.52 260.41,61.14 254.57,57.77 248.73,61.14" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="260.41,74.63 254.57,71.26 254.57,64.52 260.41,67.89" fill="#e2e2e2" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="260.41,74.63 266.25,71.26 266.25,64.52 260.41,67.89" fill="#b8b8b8" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <polygon points="260.41,67.89 266.25,64.52 260.41,61.14 254.57,64.52" fill="#f4f4f4" stroke="black" stroke-width="0.25" stroke-linejoin="miter"/>
+  <circle cx="254.57" cy="86.00" r="1.5" fill="black"/>
+  <circle cx="42.43" cy="154.60" r="1.5" fill="black"/>
+  <rect x="26.73" y="160.60" width="31.40" height="31.40" fill="white" stroke="black" stroke-width="0.35"/>
+  <line x1="37.20" y1="160.60" x2="37.20" y2="192.00" stroke="black" stroke-width="0.25"/>
+  <line x1="26.73" y1="171.07" x2="58.13" y2="171.07" stroke="black" stroke-width="0.25"/>
+  <line x1="47.66" y1="160.60" x2="47.66" y2="192.00" stroke="black" stroke-width="0.25"/>
+  <line x1="26.73" y1="181.53" x2="58.13" y2="181.53" stroke="black" stroke-width="0.25"/>
+  <text x="52.89" y="165.84" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <text x="42.43" y="165.84" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <text x="31.96" y="165.84" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">3</text>
+  <circle cx="84.86" cy="154.60" r="1.5" fill="black"/>
+  <rect x="69.16" y="160.60" width="31.40" height="31.40" fill="white" stroke="black" stroke-width="0.35"/>
+  <line x1="79.62" y1="160.60" x2="79.62" y2="192.00" stroke="black" stroke-width="0.25"/>
+  <line x1="69.16" y1="171.07" x2="100.56" y2="171.07" stroke="black" stroke-width="0.25"/>
+  <line x1="90.09" y1="160.60" x2="90.09" y2="192.00" stroke="black" stroke-width="0.25"/>
+  <line x1="69.16" y1="181.53" x2="100.56" y2="181.53" stroke="black" stroke-width="0.25"/>
+  <text x="74.39" y="176.30" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <text x="74.39" y="165.84" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">2</text>
+  <text x="84.86" y="186.77" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <text x="84.86" y="165.84" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">2</text>
+  <text x="95.32" y="176.30" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <circle cx="127.29" cy="154.60" r="1.5" fill="black"/>
+  <rect x="111.59" y="160.60" width="31.40" height="31.40" fill="white" stroke="black" stroke-width="0.35"/>
+  <line x1="122.05" y1="160.60" x2="122.05" y2="192.00" stroke="black" stroke-width="0.25"/>
+  <line x1="111.59" y1="171.07" x2="142.98" y2="171.07" stroke="black" stroke-width="0.25"/>
+  <line x1="132.52" y1="160.60" x2="132.52" y2="192.00" stroke="black" stroke-width="0.25"/>
+  <line x1="111.59" y1="181.53" x2="142.98" y2="181.53" stroke="black" stroke-width="0.25"/>
+  <text x="127.29" y="186.77" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <text x="127.29" y="176.30" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <text x="116.82" y="165.84" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <text x="116.82" y="176.30" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <circle cx="169.71" cy="154.60" r="1.5" fill="black"/>
+  <rect x="154.02" y="160.60" width="31.40" height="31.40" fill="white" stroke="black" stroke-width="0.35"/>
+  <line x1="164.48" y1="160.60" x2="164.48" y2="192.00" stroke="black" stroke-width="0.25"/>
+  <line x1="154.02" y1="171.07" x2="185.41" y2="171.07" stroke="black" stroke-width="0.25"/>
+  <line x1="174.95" y1="160.60" x2="174.95" y2="192.00" stroke="black" stroke-width="0.25"/>
+  <line x1="154.02" y1="181.53" x2="185.41" y2="181.53" stroke="black" stroke-width="0.25"/>
+  <text x="169.71" y="165.84" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">2</text>
+  <text x="180.18" y="165.84" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <text x="169.71" y="186.77" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <text x="169.71" y="176.30" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <circle cx="212.14" cy="154.60" r="1.5" fill="black"/>
+  <rect x="196.44" y="160.60" width="31.40" height="31.40" fill="white" stroke="black" stroke-width="0.35"/>
+  <line x1="206.91" y1="160.60" x2="206.91" y2="192.00" stroke="black" stroke-width="0.25"/>
+  <line x1="196.44" y1="171.07" x2="227.84" y2="171.07" stroke="black" stroke-width="0.25"/>
+  <line x1="217.38" y1="160.60" x2="217.38" y2="192.00" stroke="black" stroke-width="0.25"/>
+  <line x1="196.44" y1="181.53" x2="227.84" y2="181.53" stroke="black" stroke-width="0.25"/>
+  <text x="201.68" y="186.77" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <text x="212.14" y="165.84" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <text x="222.61" y="176.30" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <text x="222.61" y="186.77" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <text x="222.61" y="165.84" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <circle cx="254.57" cy="154.60" r="1.5" fill="black"/>
+  <rect x="238.87" y="160.60" width="31.40" height="31.40" fill="white" stroke="black" stroke-width="0.35"/>
+  <line x1="249.34" y1="160.60" x2="249.34" y2="192.00" stroke="black" stroke-width="0.25"/>
+  <line x1="238.87" y1="171.07" x2="270.27" y2="171.07" stroke="black" stroke-width="0.25"/>
+  <line x1="259.80" y1="160.60" x2="259.80" y2="192.00" stroke="black" stroke-width="0.25"/>
+  <line x1="238.87" y1="181.53" x2="270.27" y2="181.53" stroke="black" stroke-width="0.25"/>
+  <text x="254.57" y="186.77" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <text x="265.04" y="165.84" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <text x="265.04" y="186.77" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">1</text>
+  <text x="254.57" y="176.30" font-size="5.8" font-weight="600" text-anchor="middle" dominant-baseline="central" fill="black">2</text>
+</svg>
