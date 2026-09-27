@@ -106,7 +106,7 @@ Finde die fehlende Zahl.
 4. $\boxed{\phantom{0}}\,\text{ H} + 2\text{ Z} + 5\text{ E} = 425$
 5. $1\text{ T} + 12\text{ H} + 5\text{ Z} = $ ____________________
 6. $2\text{ T} + \boxed{\phantom{0}}\,\text{ H} + 4\text{ Z} + 1\text{ E} = 2\,941$
-7. $\boxed{\phantom{0}}\,\text{ T} + 3\text{ H} + 2\text{ Z} + 6\text{ E} = 3\,826$
+7. $\boxed{\phantom{0}}\,\text{ T} + 8\text{ H} + 2\text{ Z} + 6\text{ E} = 3\,826$
 
 ## 6. Stellenwerttafel
 
