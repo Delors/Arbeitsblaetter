@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Konsonante und dissonante Intervalle – Arbeitsblatt</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto;
+    max-width: 850px;
+    padding: 28px 34px;
+    color: #171717;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  h1 { margin: 0 0 4px; text-align: center; font-size: 25px; }
+  .subtitle { margin: 0 0 18px; text-align: center; color: #444; }
+  h2 {
+    margin: 18px 0 8px;
+    padding: 5px 9px;
+    border-left: 4px solid #555;
+    background: #f0f0f0;
+    font-size: 17px;
+  }
+  h3 { margin: 14px 0 5px; font-size: 15px; }
+  p { margin: 6px 0; }
+  .identity { display: flex; gap: 24px; margin: 12px 0 18px; }
+  .identity span { flex: 1; border-bottom: 1px solid #333; padding-bottom: 4px; }
+  .info-box {
+    margin: 10px 0;
+    padding: 10px 13px;
+    border: 1px solid #999;
+    background: #fafafa;
+  }
+  .interval-list { display: flex; flex-wrap: wrap; gap: 7px 20px; margin: 8px 0; }
+  .interval-list span { white-space: nowrap; }
+  .classification { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .classification div { padding: 8px 10px; border: 1px solid #aaa; }
+  .tasks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 11px 18px;
+    margin-top: 8px;
+  }
+  .task-card {
+    min-height: 128px;
+    padding: 7px 9px 8px;
+    border: 1px solid #aaa;
+    break-inside: avoid;
+  }
+  .task-head { display: flex; gap: 7px; align-items: baseline; font-weight: bold; }
+  .task-head .number { min-width: 21px; }
+  .staff { display: block; width: 100%; height: 82px; margin: 1px auto 0; }
+  .answer { margin-top: 2px; font-size: 13px; }
+  .blank { display: inline-block; min-width: 95px; height: 17px; border-bottom: 1px solid #333; vertical-align: baseline; }
+  .blank.long { min-width: 175px; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 12px; }
+  th, td { border: 1px solid #888; padding: 6px 8px; text-align: left; vertical-align: top; }
+  th { background: #eee; }
+  .listen-table td:first-child { width: 42px; text-align: center; font-weight: bold; }
+  .listen-table td:nth-child(2) { width: 150px; }
+  .listen-table td:nth-child(3), .listen-table td:nth-child(4) { width: 150px; }
+  .write-space { height: 30px; border-bottom: 1px solid #777; margin: 3px 0 8px; }
+  .draw-staff { height: 72px; margin: 6px 0 12px; }
+  .draw-staff svg { width: 100%; height: 72px; }
+  .page-break { break-before: page; page-break-before: always; }
+  .small { font-size: 12px; }
+  @page { size: A4 portrait; margin: 13mm; }
+  @media print {
+    body { max-width: none; padding: 0; font-size: 12px; }
+    h1 { font-size: 22px; }
+    h2 { margin-top: 12px; }
+    .task-card { min-height: 117px; }
+    .tasks { gap: 8px 14px; }
+    .no-break { break-inside: avoid; }
+  }
+  @media screen and (max-width: 650px) {
+    body { padding: 18px; }
+    .tasks, .classification { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<section>
+  <h1>Konsonante und dissonante Intervalle</h1>
+  <p class="subtitle">Hören, erkennen und benennen – Musik, Klasse 6</p>
+  <div class="identity"><span>Name:</span><span>Datum:</span></div>
+
+  <div class="info-box">
+    <strong>Merke:</strong> Ein <strong>Intervall</strong> ist der Abstand zwischen zwei Tönen. Werden die Töne gleichzeitig gespielt, hören wir, wie sie zusammenklingen.
+    <div class="classification">
+      <div><strong>Konsonant</strong> bedeutet: Die Töne klingen ruhig und passend zusammen.</div>
+      <div><strong>Dissonant</strong> bedeutet: Die Töne klingen gespannt oder reibend zusammen.</div>
+    </div>
+    <p>Für dieses Arbeitsblatt gilt die Einteilung aus dem Unterricht:</p>
+    <p><strong>Konsonant:</strong> Prime, Terz, Quarte, Quinte, Sexte, Oktave<br>
+    <strong>Dissonant:</strong> Sekunde, Septime</p>
+  </div>
+
+  <p><strong>Die Intervallnamen der Reihe nach:</strong></p>
+  <div class="interval-list">
+    <span>1. Prime</span><span>2. Sekunde</span><span>3. Terz</span><span>4. Quarte</span>
+    <span>5. Quinte</span><span>6. Sexte</span><span>7. Septime</span><span>8. Oktave</span>
+  </div>
+
+  <h2>1. Bestimme die Intervalle</h2>
+  <p>Sieh dir die beiden Töne im Violinschlüssel an. Schreibe den Intervallnamen auf und kreuze an, ob das Intervall konsonant oder dissonant ist.</p>
+
+  <div class="tasks">
+    <div class="task-card">
+      <div class="task-head"><span class="number">1.</span><span>Intervall bestimmen</span></div>
+      <svg class="staff" viewBox="0 0 280 95" role="img" aria-label="Zwei Noten im Violinschlüssel">
+        <g stroke="#222" stroke-width="1.4"><path d="M32 25H270 M32 35H270 M32 45H270 M32 55H270 M32 65H270"/><path d="M124 75H151"/></g>
+        <text x="10" y="74" font-size="58" font-family="Bravura, Noto Music, Segoe UI Symbol, Apple Symbols, serif">𝄞</text>
+        <g fill="white" stroke="#111" stroke-width="2"><ellipse cx="138" cy="75" rx="7" ry="5" transform="rotate(-20 138 75)"/><ellipse cx="205" cy="60" rx="7" ry="5" transform="rotate(-20 205 60)"/></g>
+      </svg>
+      <div class="answer">Intervall: <span class="blank"></span> &nbsp; □ konsonant &nbsp; □ dissonant</div>
+    </div>
+    <div class="task-card">
+      <div class="task-head"><span class="number">2.</span><span>Intervall bestimmen</span></div>
+      <svg class="staff" viewBox="0 0 280 95" role="img" aria-label="Zwei Noten im Violinschlüssel">
+        <g stroke="#222" stroke-width="1.4"><path d="M32 25H270 M32 35H270 M32 45H270 M32 55H270 M32 65H270"/></g>
+        <text x="10" y="74" font-size="58" font-family="Bravura, Noto Music, Segoe UI Symbol, Apple Symbols, serif">𝄞</text>
+        <g fill="white" stroke="#111" stroke-width="2"><ellipse cx="138" cy="55" rx="7" ry="5" transform="rotate(-20 138 55)"/><ellipse cx="205" cy="50" rx="7" ry="5" transform="rotate(-20 205 50)"/></g>
+      </svg>
+      <div class="answer">Intervall: <span class="blank"></span> &nbsp; □ konsonant &nbsp; □ dissonant</div>
+    </div>
+    <div class="task-card">
+      <div class="task-head"><span class="number">3.</span><span>Intervall bestimmen</span></div>
+      <svg class="staff" viewBox="0 0 280 95" role="img" aria-label="Zwei Noten im Violinschlüssel">
+        <g stroke="#222" stroke-width="1.4"><path d="M32 25H270 M32 35H270 M32 45H270 M32 55H270 M32 65H270"/></g>
+        <text x="10" y="74" font-size="58" font-family="Bravura, Noto Music, Segoe UI Symbol, Apple Symbols, serif">𝄞</text>
+        <g fill="white" stroke="#111" stroke-width="2"><ellipse cx="138" cy="65" rx="7" ry="5" transform="rotate(-20 138 65)"/><ellipse cx="205" cy="45" rx="7" ry="5" transform="rotate(-20 205 45)"/></g>
+      </svg>
+      <div class="answer">Intervall: <span class="blank"></span> &nbsp; □ konsonant &nbsp; □ dissonant</div>
+    </div>
+    <div class="task-card">
+      <div class="task-head"><span class="number">4.</span><span>Intervall bestimmen</span></div>
+      <svg class="staff" viewBox="0 0 280 95" role="img" aria-label="Zwei Noten im Violinschlüssel">
+        <g stroke="#222" stroke-width="1.4"><path d="M32 25H270 M32 35H270 M32 45H270 M32 55H270 M32 65H270"/></g>
+        <text x="10" y="74" font-size="58" font-family="Bravura, Noto Music, Segoe UI Symbol, Apple Symbols, serif">𝄞</text>
+        <g fill="white" stroke="#111" stroke-width="2"><ellipse cx="138" cy="60" rx="7" ry="5" transform="rotate(-20 138 60)"/><ellipse cx="205" cy="35" rx="7" ry="5" transform="rotate(-20 205 35)"/></g>
+      </svg>
+      <div class="answer">Intervall: <span class="blank"></span> &nbsp; □ konsonant &nbsp; □ dissonant</div>
+    </div>
+    <div class="task-card">
+      <div class="task-head"><span class="number">5.</span><span>Intervall bestimmen</span></div>
+      <svg class="staff" viewBox="0 0 280 95" role="img" aria-label="Zwei Noten im Violinschlüssel">
+        <g stroke="#222" stroke-width="1.4"><path d="M32 25H270 M32 35H270 M32 45H270 M32 55H270 M32 65H270"/></g>
+        <text x="10" y="74" font-size="58" font-family="Bravura, Noto Music, Segoe UI Symbol, Apple Symbols, serif">𝄞</text>
+        <g fill="white" stroke="#111" stroke-width="2"><ellipse cx="138" cy="70" rx="7" ry="5" transform="rotate(-20 138 70)"/><ellipse cx="205" cy="60" rx="7" ry="5" transform="rotate(-20 205 60)"/></g>
+      </svg>
+      <div class="answer">Intervall: <span class="blank"></span> &nbsp; □ konsonant &nbsp; □ dissonant</div>
+    </div>
+    <div class="task-card">
+      <div class="task-head"><span class="number">6.</span><span>Intervall bestimmen</span></div>
+      <svg class="staff" viewBox="0 0 280 95" role="img" aria-label="Zwei Noten im Violinschlüssel">
+        <g stroke="#222" stroke-width="1.4"><path d="M32 25H270 M32 35H270 M32 45H270 M32 55H270 M32 65H270"/></g>
+        <text x="10" y="74" font-size="58" font-family="Bravura, Noto Music, Segoe UI Symbol, Apple Symbols, serif">𝄞</text>
+        <g fill="white" stroke="#111" stroke-width="2"><ellipse cx="138" cy="50" rx="7" ry="5" transform="rotate(-20 138 50)"/><ellipse cx="205" cy="30" rx="7" ry="5" transform="rotate(-20 205 30)"/></g>
+      </svg>
+      <div class="answer">Intervall: <span class="blank"></span> &nbsp; □ konsonant &nbsp; □ dissonant</div>
+    </div>
+  </div>
+</section>
+
+<section class="page-break">
+  <h2>1. Bestimme die Intervalle – weiter geht's</h2>
+  <p>Schreibe den Intervallnamen auf und ordne das Intervall als konsonant oder dissonant ein.</p>
+  <div class="tasks">
+    <div class="task-card">
+      <div class="task-head"><span class="number">7.</span><span>Intervall bestimmen</span></div>
+      <svg class="staff" viewBox="0 0 280 95" role="img" aria-label="Zwei Noten im Violinschlüssel">
+        <g stroke="#222" stroke-width="1.4"><path d="M32 25H270 M32 35H270 M32 45H270 M32 55H270 M32 65H270"/></g>
+        <text x="10" y="74" font-size="58" font-family="Bravura, Noto Music, Segoe UI Symbol, Apple Symbols, serif">𝄞</text>
+        <g fill="white" stroke="#111" stroke-width="2"><ellipse cx="138" cy="50" rx="7" ry="5" transform="rotate(-20 138 50)"/><ellipse cx="205" cy="45" rx="7" ry="5" transform="rotate(-20 205 45)"/></g>
+      </svg>
+      <div class="answer">Intervall: <span class="blank"></span> &nbsp; □ konsonant &nbsp; □ dissonant</div>
+    </div>
+    <div class="task-card">
+      <div class="task-head"><span class="number">8.</span><span>Intervall bestimmen</span></div>
+      <svg class="staff" viewBox="0 0 280 95" role="img" aria-label="Zwei Noten im Violinschlüssel">
+        <g stroke="#222" stroke-width="1.4"><path d="M32 25H270 M32 35H270 M32 45H270 M32 55H270 M32 65H270"/><path d="M192 15H220"/></g>
+        <text x="10" y="74" font-size="58" font-family="Bravura, Noto Music, Segoe UI Symbol, Apple Symbols, serif">𝄞</text>
+        <g fill="white" stroke="#111" stroke-width="2"><ellipse cx="138" cy="40" rx="7" ry="5" transform="rotate(-20 138 40)"/><ellipse cx="205" cy="10" rx="7" ry="5" transform="rotate(-20 205 10)"/></g>
+      </svg>
+      <div class="answer">Intervall: <span class="blank"></span> &nbsp; □ konsonant &nbsp; □ dissonant</div>
+    </div>
+    <div class="task-card">
+      <div class="task-head"><span class="number">9.</span><span>Intervall bestimmen</span></div>
+      <svg class="staff" viewBox="0 0 280 95" role="img" aria-label="Zwei Noten im Violinschlüssel">
+        <g stroke="#222" stroke-width="1.4"><path d="M32 25H270 M32 35H270 M32 45H270 M32 55H270 M32 65H270"/><path d="M124 75H151"/></g>
+        <text x="10" y="74" font-size="58" font-family="Bravura, Noto Music, Segoe UI Symbol, Apple Symbols, serif">𝄞</text>
+        <g fill="white" stroke="#111" stroke-width="2"><ellipse cx="138" cy="75" rx="7" ry="5" transform="rotate(-20 138 75)"/><ellipse cx="205" cy="40" rx="7" ry="5" transform="rotate(-20 205 40)"/></g>
+      </svg>
+      <div class="answer">Intervall: <span class="blank"></span> &nbsp; □ konsonant &nbsp; □ dissonant</div>
+    </div>
+    <div class="task-card">
+      <div class="task-head"><span class="number">10.</span><span>Intervall bestimmen</span></div>
+      <svg class="staff" viewBox="0 0 280 95" role="img" aria-label="Zwei Noten im Violinschlüssel">
+        <g stroke="#222" stroke-width="1.4"><path d="M32 25H270 M32 35H270 M32 45H270 M32 55H270 M32 65H270"/></g>
+        <text x="10" y="74" font-size="58" font-family="Bravura, Noto Music, Segoe UI Symbol, Apple Symbols, serif">𝄞</text>
+        <g fill="white" stroke="#111" stroke-width="2"><ellipse cx="138" cy="55" rx="7" ry="5" transform="rotate(-20 138 55)"/><ellipse cx="205" cy="30" rx="7" ry="5" transform="rotate(-20 205 30)"/></g>
+      </svg>
+      <div class="answer">Intervall: <span class="blank"></span> &nbsp; □ konsonant &nbsp; □ dissonant</div>
+    </div>
+    <div class="task-card">
+      <div class="task-head"><span class="number">11.</span><span>Intervall bestimmen</span></div>
+      <svg class="staff" viewBox="0 0 280 95" role="img" aria-label="Zwei Noten im Violinschlüssel">
+        <g stroke="#222" stroke-width="1.4"><path d="M32 25H270 M32 35H270 M32 45H270 M32 55H270 M32 65H270"/></g>
+        <text x="10" y="74" font-size="58" font-family="Bravura, Noto Music, Segoe UI Symbol, Apple Symbols, serif">𝄞</text>
+        <g fill="white" stroke="#111" stroke-width="2"><ellipse cx="138" cy="70" rx="7" ry="5" transform="rotate(-20 138 70)"/><ellipse cx="205" cy="40" rx="7" ry="5" transform="rotate(-20 205 40)"/></g>
+      </svg>
+      <div class="answer">Intervall: <span class="blank"></span> &nbsp; □ konsonant &nbsp; □ dissonant</div>
+    </div>
+    <div class="task-card">
+      <div class="task-head"><span class="number">12.</span><span>Intervall bestimmen</span></div>
+      <svg class="staff" viewBox="0 0 280 95" role="img" aria-label="Zwei Noten im Violinschlüssel">
+        <g stroke="#222" stroke-width="1.4"><path d="M32 25H270 M32 35H270 M32 45H270 M32 55H270 M32 65H270"/></g>
+        <text x="10" y="74" font-size="58" font-family="Bravura, Noto Music, Segoe UI Symbol, Apple Symbols, serif">𝄞</text>
+        <g fill="white" stroke="#111" stroke-width="2"><ellipse cx="138" cy="65" rx="7" ry="5" transform="rotate(-20 138 65)"/><ellipse cx="205" cy="65" rx="7" ry="5" transform="rotate(-20 205 65)"/></g>
+      </svg>
+      <div class="answer">Intervall: <span class="blank"></span> &nbsp; □ konsonant &nbsp; □ dissonant</div>
+    </div>
+  </div>
+
+  <h2>2. Ordne zu</h2>
+  <p>Schreibe die Intervalle in die passende Spalte. Jedes Intervall gehört in diesem Arbeitsblatt zu genau einer Gruppe.</p>
+  <p><strong>Prime · Sekunde · Terz · Quarte · Quinte · Sexte · Septime · Oktave</strong></p>
+  <div class="classification">
+    <div><strong>Konsonant</strong><br><br><span class="blank long"></span><br><br><span class="blank long"></span></div>
+    <div><strong>Dissonant</strong><br><br><span class="blank long"></span><br><br><span class="blank long"></span></div>
+  </div>
+
+  <h2>3. Welche Zahl passt zum Namen?</h2>
+  <p>Ergänze die Nummer des Intervalls.</p>
+  <table>
+    <tr><th>Intervall</th><th>Nummer</th><th>Intervall</th><th>Nummer</th></tr>
+    <tr><td>Prime</td><td></td><td>Quinte</td><td></td></tr>
+    <tr><td>Sekunde</td><td></td><td>Sexte</td><td></td></tr>
+    <tr><td>Terz</td><td></td><td>Septime</td><td></td></tr>
+    <tr><td>Quarte</td><td></td><td>Oktave</td><td></td></tr>
+  </table>
+</section>
+
+<section class="page-break">
+  <h2>4. Hör- und Keyboardaufgabe</h2>
+  <p>Spielt die beiden Töne jedes Beispiels zuerst nacheinander und dann gleichzeitig am Keyboard. Hört genau hin und tragt den Intervallnamen sowie <strong>konsonant</strong> oder <strong>dissonant</strong> ein.</p>
+  <p class="small">Tipp: Spielt die Töne mit der rechten Hand oder lasst sie von einer Partnerin oder einem Partner vorspielen.</p>
+  <table class="listen-table">
+    <tr><th>Nr.</th><th>Noten</th><th>Intervallname</th><th>Klang: konsonant / dissonant</th></tr>
+    <tr><td>1</td><td>C und D</td><td></td><td></td></tr>
+    <tr><td>2</td><td>C und E</td><td></td><td></td></tr>
+    <tr><td>3</td><td>C und F</td><td></td><td></td></tr>
+    <tr><td>4</td><td>C und G</td><td></td><td></td></tr>
+    <tr><td>5</td><td>C und A</td><td></td><td></td></tr>
+    <tr><td>6</td><td>C und H</td><td></td><td></td></tr>
+    <tr><td>7</td><td>C und das höhere C</td><td></td><td></td></tr>
+    <tr><td>8</td><td>F und G</td><td></td><td></td></tr>
+  </table>
+
+  <h2>5. Beschreibe den Klang</h2>
+  <p>Wie unterscheiden sich konsonante und dissonante Intervalle beim Hören? Beschreibe den Unterschied mit eigenen Worten.</p>
+  <div class="write-space"></div>
+  <div class="write-space"></div>
+
+  <h2>6. Zeichne eigene Beispiele</h2>
+  <p>Zeichne in jedes Notensystem zwei gleichzeitig erklingende Noten. Schreibe daneben, welches Intervall du gezeichnet hast.</p>
+  <div class="draw-staff">
+    <svg viewBox="0 0 700 80" role="img" aria-label="Leeres Notensystem zum Zeichnen">
+      <g stroke="#222" stroke-width="1.5"><path d="M50 15H680 M50 25H680 M50 35H680 M50 45H680 M50 55H680"/></g>
+      <text x="12" y="64" font-size="58" font-family="Bravura, Noto Music, Segoe UI Symbol, Apple Symbols, serif">𝄞</text>
+    </svg>
+  </div>
+  <p>Intervall: <span class="blank long"></span> &nbsp; Einordnung: □ konsonant &nbsp; □ dissonant</p>
+  <div class="draw-staff">
+    <svg viewBox="0 0 700 80" role="img" aria-label="Leeres Notensystem zum Zeichnen">
+      <g stroke="#222" stroke-width="1.5"><path d="M50 15H680 M50 25H680 M50 35H680 M50 45H680 M50 55H680"/></g>
+      <text x="12" y="64" font-size="58" font-family="Bravura, Noto Music, Segoe UI Symbol, Apple Symbols, serif">𝄞</text>
+    </svg>
+  </div>
+  <p>Intervall: <span class="blank long"></span> &nbsp; Einordnung: □ konsonant &nbsp; □ dissonant</p>
+
+  <p class="info-box"><strong>Zum Schluss:</strong> Kannst du die Intervalle Prime, Sekunde, Terz, Quarte, Quinte, Sexte, Septime und Oktave der Reihe nach aufsagen?</p>
+</section>
+
+</body>
+</html>

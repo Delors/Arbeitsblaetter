@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Halb- und Ganztonschritte – Arbeitsblatt</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto;
+    max-width: 850px;
+    padding: 28px 34px;
+    color: #171717;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  h1 { margin: 0 0 4px; text-align: center; font-size: 25px; }
+  .subtitle { margin: 0 0 18px; text-align: center; color: #444; }
+  h2 {
+    margin: 18px 0 8px;
+    padding: 5px 9px;
+    border-left: 4px solid #555;
+    background: #f0f0f0;
+    font-size: 17px;
+  }
+  h3 { margin: 12px 0 5px; font-size: 15px; }
+  p { margin: 6px 0; }
+  .identity { display: flex; gap: 24px; margin: 12px 0 16px; }
+  .identity span { flex: 1; border-bottom: 1px solid #333; padding-bottom: 4px; }
+  .box { margin: 10px 0; padding: 9px 12px; border: 1px solid #999; background: #fafafa; }
+  .keyboard { display: block; width: 100%; height: auto; margin: 7px auto 12px; }
+  .examples { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .example { padding: 8px 10px; border: 1px solid #aaa; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 12px; }
+  th, td { border: 1px solid #888; padding: 6px 8px; text-align: left; vertical-align: top; }
+  th { background: #eee; }
+  .center { text-align: center; }
+  .blank { display: inline-block; min-width: 78px; height: 18px; border-bottom: 1px solid #333; vertical-align: baseline; }
+  .blank.long { min-width: 170px; }
+  .path { padding: 8px 10px; margin: 8px 0; border: 1px solid #aaa; break-inside: avoid; }
+  .steps { display: inline-flex; gap: 7px; margin: 4px 0; vertical-align: middle; }
+  .step { display: inline-block; min-width: 56px; height: 24px; border-bottom: 1px solid #333; text-align: center; }
+  .response { height: 27px; margin: 6px 0; border-bottom: 1px solid #777; }
+  .page-break { break-before: page; page-break-before: always; }
+  .small { font-size: 12px; color: #444; }
+  @page { size: A4 portrait; margin: 13mm; }
+  @media print {
+    body { max-width: none; padding: 0; font-size: 12px; }
+    h1 { font-size: 22px; }
+    h2 { margin-top: 12px; }
+    .page-break { break-before: page; }
+  }
+  @media screen and (max-width: 650px) {
+    body { padding: 18px; }
+    .examples { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<section>
+  <h1>Halb- und Ganztonschritte</h1>
+  <p class="subtitle">Musik, Klasse 6 · Töne auf der Klaviertastatur finden</p>
+  <div class="identity"><span>Name:</span><span>Datum:</span></div>
+
+  <div class="box">
+    <strong>Merke:</strong>
+    <p>Ein <strong>Halbtonschritt (HT)</strong> ist der kleinste Abstand zwischen zwei benachbarten Tasten auf dem Klavier. Zwischen den Tasten liegt keine weitere Taste.</p>
+    <p>Ein <strong>Ganztonschritt (GT)</strong> besteht aus zwei Halbtonschritten. Zwischen den Tönen liegt eine weitere Taste.</p>
+    <p><strong>Achtung:</strong> Zwischen <strong>e und f</strong> sowie zwischen <strong>h und c</strong> liegt keine schwarze Taste. Diese Tonpaare sind trotzdem Halbtonschritte.</p>
+    <p class="small">Deutsche Notennamen: <strong>h</strong> ist der weiße Ton zwischen a und c. Die schwarzen Tasten heißen zum Beispiel <strong>cis, dis, fis, gis</strong> und <strong>ais</strong>.</p>
+  </div>
+
+  <p><strong>Eine Klaviertastatur:</strong> Weiße und schwarze Tasten liegen abwechselnd. Jede Taste direkt neben einer anderen Taste ist genau einen Halbtonschritt entfernt.</p>
+  <svg class="keyboard" viewBox="0 0 560 190" role="img" aria-label="Klaviertastatur mit den Notennamen c, d, e, f, g, a, h, c sowie cis, dis, fis, gis und ais">
+    <g fill="#fff" stroke="#222" stroke-width="2">
+      <rect x="0" y="18" width="70" height="158"/><rect x="70" y="18" width="70" height="158"/>
+      <rect x="140" y="18" width="70" height="158"/><rect x="210" y="18" width="70" height="158"/>
+      <rect x="280" y="18" width="70" height="158"/><rect x="350" y="18" width="70" height="158"/>
+      <rect x="420" y="18" width="70" height="158"/><rect x="490" y="18" width="70" height="158"/>
+    </g>
+    <g fill="#111">
+      <rect x="49" y="18" width="42" height="98"/><rect x="119" y="18" width="42" height="98"/>
+      <rect x="259" y="18" width="42" height="98"/><rect x="329" y="18" width="42" height="98"/>
+      <rect x="399" y="18" width="42" height="98"/>
+    </g>
+    <g fill="#fff" font-family="Arial, sans-serif" font-size="11" text-anchor="middle">
+      <text x="70" y="78">cis</text><text x="140" y="78">dis</text><text x="280" y="78">fis</text><text x="350" y="78">gis</text><text x="420" y="78">ais</text>
+    </g>
+    <g fill="#222" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">
+      <text x="35" y="162">c</text><text x="105" y="162">d</text><text x="175" y="162">e</text><text x="245" y="162">f</text>
+      <text x="315" y="162">g</text><text x="385" y="162">a</text><text x="455" y="162">h</text><text x="525" y="162">c</text>
+    </g>
+  </svg>
+
+  <div class="examples">
+    <div class="example"><strong>Halbtonschritt:</strong> e → f<br>Die Tasten liegen direkt nebeneinander.</div>
+    <div class="example"><strong>Ganztonschritt:</strong> c → d<br>Dazwischen liegt die Taste cis.</div>
+  </div>
+
+  <h2>1. Halbton oder Ganzton?</h2>
+  <p>Schreibe <strong>HT</strong> oder <strong>GT</strong> in die Lücke. Denke an die Tasten dazwischen.</p>
+  <table>
+    <tr><th>Tonpaar</th><th>HT oder GT?</th><th>Tonpaar</th><th>HT oder GT?</th></tr>
+    <tr><td>1. c – d</td><td></td><td>7. dis – e</td><td></td></tr>
+    <tr><td>2. e – f</td><td></td><td>8. a – h</td><td></td></tr>
+    <tr><td>3. f – g</td><td></td><td>9. cis – dis</td><td></td></tr>
+    <tr><td>4. h – c</td><td></td><td>10. gis – a</td><td></td></tr>
+    <tr><td>5. c – cis</td><td></td><td>11. a – ais</td><td></td></tr>
+    <tr><td>6. fis – gis</td><td></td><td>12. es – f</td><td></td></tr>
+  </table>
+</section>
+
+<section class="page-break">
+  <h2>2. Ergänze den fehlenden Ton</h2>
+  <p>Gehe auf der Klaviertastatur um genau den angegebenen Schritt weiter. Schreibe den fehlenden Ton auf.</p>
+  <table>
+    <tr><th>Ausgangston</th><th>Schritt</th><th>Zielton</th><th>Ausgangston</th><th>Schritt</th><th>Zielton</th></tr>
+    <tr><td>1. c</td><td>HT nach oben</td><td></td><td>5. g</td><td>GT nach oben</td><td></td></tr>
+    <tr><td>2. e</td><td>HT nach oben</td><td></td><td>6. cis</td><td>HT nach oben</td><td></td></tr>
+    <tr><td>3. f</td><td>GT nach oben</td><td></td><td>7. fis</td><td>GT nach oben</td><td></td></tr>
+    <tr><td>4. h</td><td>HT nach oben</td><td></td><td>8. a</td><td>HT nach oben</td><td></td></tr>
+  </table>
+
+  <h2>3. Folge dem Tastaturpfad</h2>
+  <p>Starte beim angegebenen Ton. Gehe die Schritte der Reihe nach auf der Tastatur. Schreibe den Zielton auf.</p>
+
+  <div class="path">
+    <strong>1. Startton c:</strong> ↑ GT, ↑ GT, ↑ HT<br>
+    Zielton: <span class="blank"></span>
+  </div>
+  <div class="path">
+    <strong>2. Startton e:</strong> ↓ HT, ↓ GT<br>
+    Zielton: <span class="blank"></span>
+  </div>
+  <div class="path">
+    <strong>3. Startton h:</strong> ↑ HT, ↑ GT, ↑ HT<br>
+    Zielton: <span class="blank"></span>
+  </div>
+  <div class="path">
+    <strong>4. Startton g:</strong> ↓ GT, ↑ HT, ↑ GT<br>
+    Zielton: <span class="blank"></span>
+  </div>
+
+  <h2>4. Wie viele Halbtöne sind das?</h2>
+  <p>Ein Halbtonschritt zählt als <strong>1 HT</strong>. Ein Ganztonschritt zählt als <strong>2 HT</strong>. Ergänze die Anzahl.</p>
+  <table>
+    <tr><th>Tonpaar</th><th>Anzahl der Halbtöne</th><th>Schrittname</th></tr>
+    <tr><td>c – d</td><td></td><td></td></tr>
+    <tr><td>e – f</td><td></td><td></td></tr>
+    <tr><td>fis – g</td><td></td><td></td></tr>
+    <tr><td>a – h</td><td></td><td></td></tr>
+    <tr><td>h – c</td><td></td><td></td></tr>
+    <tr><td>cis – dis</td><td></td><td></td></tr>
+  </table>
+</section>
+
+<section class="page-break">
+  <h2>5. Zeichne und beschrifte</h2>
+  <p>Beschrifte die weißen Tasten im unteren Bereich mit <strong>c, d, e, f, g, a, h, c</strong>. Schreibe <strong>cis, dis, fis, gis, ais</strong> jeweils in den freien Bereich direkt unter die passende schwarze Taste.</p>
+  <svg class="keyboard" viewBox="0 0 560 190" role="img" aria-label="Leere Klaviertastatur zum Beschriften">
+    <g fill="#fff" stroke="#222" stroke-width="2">
+      <rect x="0" y="18" width="70" height="158"/><rect x="70" y="18" width="70" height="158"/>
+      <rect x="140" y="18" width="70" height="158"/><rect x="210" y="18" width="70" height="158"/>
+      <rect x="280" y="18" width="70" height="158"/><rect x="350" y="18" width="70" height="158"/>
+      <rect x="420" y="18" width="70" height="158"/><rect x="490" y="18" width="70" height="158"/>
+    </g>
+    <g fill="#111">
+      <rect x="49" y="18" width="42" height="98"/><rect x="119" y="18" width="42" height="98"/>
+      <rect x="259" y="18" width="42" height="98"/><rect x="329" y="18" width="42" height="98"/>
+      <rect x="399" y="18" width="42" height="98"/>
+    </g>
+    <g stroke="#888" stroke-width="1"><path d="M0 145H560"/></g>
+  </svg>
+
+  <h2>6. Erfinde einen eigenen Tastaturpfad</h2>
+  <p>Finde einen Weg von <strong>c</strong> zu <strong>g</strong> mit genau <strong>4 Schritten</strong>. Schreibe für jeden Schritt HT oder GT auf. Du darfst dabei schwarze und weiße Tasten benutzen.</p>
+  <p>Startton: <strong>c</strong> &nbsp; Zielton: <strong>g</strong></p>
+  <div class="steps">1. <span class="step"></span> 2. <span class="step"></span> 3. <span class="step"></span> 4. <span class="step"></span></div>
+  <p>Beschreibe einen möglichen Weg mit den Zwischentönen:</p>
+  <div class="response"></div>
+  <div class="response"></div>
+
+  <h2>7. Hör genau hin</h2>
+  <p>Spiele am Keyboard die Tonpaare <strong>e–f</strong> und <strong>c–d</strong> zuerst nacheinander, dann gleichzeitig. Welches Paar besteht aus einem Halbtonschritt? Welches aus einem Ganztonschritt?</p>
+  <p>Halbtonschritt: <span class="blank"></span> &nbsp;&nbsp; Ganztonschritt: <span class="blank"></span></p>
+  <p>Was hörst du? _________________________________________________________________</p>
+  <p class="box"><strong>Merksatz:</strong> Ein Ganztonschritt besteht immer aus zwei Halbtonschritten. Auf dem Klavier sind zwei direkt benachbarte Tasten einen Halbtonschritt voneinander entfernt.</p>
+</section>
+
+</body>
+</html>
