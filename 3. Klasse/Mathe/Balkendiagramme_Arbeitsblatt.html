@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Balkendiagramme – Arbeitsblatt</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0 auto;
+    max-width: 850px;
+    padding: 28px 34px;
+    color: #171717;
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  h1 { margin: 0 0 4px; text-align: center; font-size: 24px; }
+  .subtitle { margin: 0 0 18px; text-align: center; color: #444; }
+  h2 {
+    margin: 17px 0 8px;
+    padding: 5px 9px;
+    border-left: 4px solid #555;
+    background: #f0f0f0;
+    font-size: 17px;
+  }
+  h3 {
+    margin: 12px 0 6px;
+    font-size: 15px;
+    color: #333;
+  }
+  p { margin: 6px 0; }
+  .task { margin: 10px 0 14px; padding: 8px 12px; border: 1px solid #bbb; }
+  .answer-blank { display: inline-block; min-width: 50px; height: 20px; border-bottom: 1px solid #333; vertical-align: baseline; }
+  .work-space { height: 28px; border-bottom: 1px solid #777; margin: 5px 0 10px; }
+  .page-break { break-before: page; page-break-before: always; }
+  .diagram-container { margin: 15px 0; }
+  .bar-chart { display: block; width: 100%; height: auto; margin: 0; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 14px; }
+  th, td { border: 1px solid #888; padding: 7px 9px; text-align: center; vertical-align: middle; }
+  th { background: #eee; }
+  td:first-child, th:first-child { text-align: left; }
+  .small { font-size: 12px; color: #444; }
+  @page { size: A4 portrait; margin: 13mm; }
+  @media print {
+    body { max-width: none; padding: 0; font-size: 12px; }
+    h1 { font-size: 21px; }
+    h2 { margin-top: 12px; font-size: 15px; }
+    h3 { font-size: 13px; }
+    .task { margin: 5px 0 7px; padding: 6px 10px; }
+    .diagram-container { margin: 10px 0; }
+    .answer-blank { min-width: 40px; }
+  }
+</style>
+</head>
+<body>
+
+<section>
+  <h1>Balkendiagramme</h1>
+  <p class="subtitle">Balkendiagramme lesen und zeichnen &middot; 3. Klasse</p>
+
+  <div class="task">
+    <strong>Tipp:</strong> In einem Balkendiagramm wird die H&auml;ufigkeit oder Anzahl durch die L&auml;nge des Balkens dargestellt. 
+    Je l&auml;nger der Balken, desto gr&ouml;&szlig;er ist der Wert. <strong>Alle Balken m&uuml;ssen auf der Nulllinie beginnen!</strong>
+  </div>
+
+  <h2>Teil A: Balkendiagramme ablesen</h2>
+  <p>Lies die Werte aus den Balkendiagrammen ab und schreibe sie in die Tabelle.</p>
+
+  <h3>Aufgabe 1: Lieblingssportarten</h3>
+  <p>Wie viele Kinder m&ouml;gen die jeweilige Sportart?</p>
+  <div class="diagram-container">
+    <svg class="bar-chart" viewBox="0 0 500 280" role="img" aria-label="Balkendiagramm Lieblingssportarten">
+      <!-- Nulllinie am unteren Rand -->
+      <line x1="40" y1="260" x2="440" y2="260" stroke="#222" stroke-width="2"/>
+      
+      <!-- Y-Achse -->
+      <line x1="40" y1="60" x2="40" y2="260" stroke="#222" stroke-width="2"/>
+      
+      <!-- Y-Achsen-Beschriftung (0 ist unten, Werte steigen nach oben) -->
+      <text x="20" y="265" text-anchor="end" font-size="11" fill="#222">0</text>
+      <text x="20" y="215" text-anchor="end" font-size="11" fill="#222">5</text>
+      <text x="20" y="165" text-anchor="end" font-size="11" fill="#222">10</text>
+      <text x="20" y="115" text-anchor="end" font-size="11" fill="#222">15</text>
+      <text x="20" y="65" text-anchor="end" font-size="11" fill="#222">20</text>
+      
+      <!-- Gitternetzlinien -->
+      <line x1="40" y1="60" x2="440" y2="60" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="110" x2="440" y2="110" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="160" x2="440" y2="160" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="210" x2="440" y2="210" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="260" x2="440" y2="260" stroke="#222" stroke-width="1"/>
+      
+      <!-- Balken (beginnen auf der Nulllinie y=260) -->
+      <rect x="70" y="60" width="50" height="200" fill="#4CAF50" rx="2" ry="2"/>
+      <rect x="140" y="80" width="50" height="180" fill="#2196F3" rx="2" ry="2"/>
+      <rect x="210" y="120" width="50" height="140" fill="#FF9800" rx="2" ry="2"/>
+      <rect x="280" y="140" width="50" height="120" fill="#9C27B0" rx="2" ry="2"/>
+      <rect x="350" y="160" width="50" height="100" fill="#F44336" rx="2" ry="2"/>
+      
+      <!-- X-Achsen-Beschriftung -->
+      <text x="95" y="275" text-anchor="middle" font-size="11" fill="#222">Fußball</text>
+      <text x="165" y="275" text-anchor="middle" font-size="11" fill="#222">Schwimmen</text>
+      <text x="235" y="275" text-anchor="middle" font-size="11" fill="#222">Radfahren</text>
+      <text x="305" y="275" text-anchor="middle" font-size="11" fill="#222">Tanzen</text>
+      <text x="375" y="275" text-anchor="middle" font-size="11" fill="#222">Laufen</text>
+    </svg>
+  </div>
+  
+  <table>
+    <tr><th>Sportart</th><th>Anzahl Kinder</th></tr>
+    <tr><td>Fußball</td><td><span class="answer-blank"></span></td></tr>
+    <tr><td>Schwimmen</td><td><span class="answer-blank"></span></td></tr>
+    <tr><td>Radfahren</td><td><span class="answer-blank"></span></td></tr>
+    <tr><td>Tanzen</td><td><span class="answer-blank"></span></td></tr>
+    <tr><td>Laufen</td><td><span class="answer-blank"></span></td></tr>
+  </table>
+  
+  <p><strong>Frage:</strong> Welche Sportart mag am liebsten? <span class="answer-blank"></span></p>
+  <p><strong>Frage:</strong> Welche Sportart mag am wenigsten? <span class="answer-blank"></span></p>
+
+  <h3>Aufgabe 2: Obstverkauf</h3>
+  <p>Wie viele Kilo wurden von jedem Obst verkauft?</p>
+  <div class="diagram-container">
+    <svg class="bar-chart" viewBox="0 0 500 280" role="img" aria-label="Balkendiagramm Obstverkauf">
+      <!-- Nulllinie am unteren Rand -->
+      <line x1="40" y1="260" x2="440" y2="260" stroke="#222" stroke-width="2"/>
+      
+      <!-- Y-Achse -->
+      <line x1="40" y1="10" x2="40" y2="260" stroke="#222" stroke-width="2"/>
+      
+      <!-- Y-Achsen-Beschriftung (5er-Schritte) -->
+      <text x="20" y="265" text-anchor="end" font-size="11" fill="#222">0</text>
+      <text x="20" y="215" text-anchor="end" font-size="11" fill="#222">5</text>
+      <text x="20" y="165" text-anchor="end" font-size="11" fill="#222">10</text>
+      <text x="20" y="115" text-anchor="end" font-size="11" fill="#222">15</text>
+      <text x="20" y="65" text-anchor="end" font-size="11" fill="#222">20</text>
+      <text x="20" y="15" text-anchor="end" font-size="11" fill="#222">25</text>
+      
+      <!-- Gitternetzlinien bei 5er-Schritten -->
+      <line x1="40" y1="10" x2="440" y2="10" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="60" x2="440" y2="60" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="110" x2="440" y2="110" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="160" x2="440" y2="160" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="210" x2="440" y2="210" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="260" x2="440" y2="260" stroke="#222" stroke-width="1"/>
+      
+      <!-- Balken (Werte auf Rasterlinien ausgerichtet: 20, 15, 25, 10, 5) -->
+      <rect x="80" y="60" width="50" height="200" fill="#FFC107" rx="2" ry="2"/>
+      <rect x="150" y="110" width="50" height="150" fill="#FF5722" rx="2" ry="2"/>
+      <rect x="220" y="10" width="50" height="250" fill="#4CAF50" rx="2" ry="2"/>
+      <rect x="290" y="160" width="50" height="100" fill="#E91E63" rx="2" ry="2"/>
+      <rect x="360" y="210" width="50" height="50" fill="#9C27B0" rx="2" ry="2"/>
+      
+      <!-- X-Achsen-Beschriftung -->
+      <text x="105" y="275" text-anchor="middle" font-size="11" fill="#222">Äpfel</text>
+      <text x="175" y="275" text-anchor="middle" font-size="11" fill="#222">Bananen</text>
+      <text x="245" y="275" text-anchor="middle" font-size="11" fill="#222">Birnen</text>
+      <text x="315" y="275" text-anchor="middle" font-size="11" fill="#222">Orangen</text>
+      <text x="385" y="275" text-anchor="middle" font-size="11" fill="#222">Trauben</text>
+    </svg>
+  </div>
+  
+  <table>
+    <tr><th>Obst</th><th>Kilo verkauft</th></tr>
+    <tr><td>Äpfel</td><td><span class="answer-blank"></span></td></tr>
+    <tr><td>Bananen</td><td><span class="answer-blank"></span></td></tr>
+    <tr><td>Birnen</td><td><span class="answer-blank"></span></td></tr>
+    <tr><td>Orangen</td><td><span class="answer-blank"></span></td></tr>
+    <tr><td>Trauben</td><td><span class="answer-blank"></span></td></tr>
+  </table>
+</section>
+
+<section class="page-break">
+  <h2>Teil B: Balkendiagramme zeichnen</h2>
+  <p>Zeichne die Balken in die leeren Diagramme ein. <strong>Alle Balken m&uuml;ssen auf der Nulllinie beginnen!</strong></p>
+
+  <h3>Aufgabe 3: Haustiere</h3>
+  <p>Zeichne die Balken für die Anzahl der Haustiere. Jedes Kästchen auf der Y-Achse entspricht 1 Haustier.</p>
+  <div class="diagram-container">
+    <svg class="bar-chart" viewBox="0 0 500 280" role="img" aria-label="Leeres Balkendiagramm Haustiere">
+      <!-- Nulllinie am unteren Rand -->
+      <line x1="40" y1="260" x2="440" y2="260" stroke="#222" stroke-width="2"/>
+      
+      <!-- Y-Achse -->
+      <line x1="40" y1="20" x2="40" y2="260" stroke="#222" stroke-width="2"/>
+      
+      <!-- Y-Achsen-Beschriftung -->
+      <text x="20" y="265" text-anchor="end" font-size="11" fill="#222">0</text>
+      <text x="20" y="235" text-anchor="end" font-size="11" fill="#222">1</text>
+      <text x="20" y="205" text-anchor="end" font-size="11" fill="#222">2</text>
+      <text x="20" y="175" text-anchor="end" font-size="11" fill="#222">3</text>
+      <text x="20" y="145" text-anchor="end" font-size="11" fill="#222">4</text>
+      <text x="20" y="115" text-anchor="end" font-size="11" fill="#222">5</text>
+      <text x="20" y="85" text-anchor="end" font-size="11" fill="#222">6</text>
+      <text x="20" y="55" text-anchor="end" font-size="11" fill="#222">7</text>
+      <text x="20" y="25" text-anchor="end" font-size="11" fill="#222">8</text>
+      
+      <!-- Gitternetzlinien -->
+      <line x1="40" y1="20" x2="440" y2="20" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="50" x2="440" y2="50" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="80" x2="440" y2="80" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="110" x2="440" y2="110" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="140" x2="440" y2="140" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="170" x2="440" y2="170" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="200" x2="440" y2="200" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="230" x2="440" y2="230" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="260" x2="440" y2="260" stroke="#222" stroke-width="1"/>
+      
+      <!-- X-Achsen-Linien für Balkenpositionen -->
+      <line x1="70" y1="20" x2="70" y2="260" stroke="#999" stroke-width="0.5"/>
+      <line x1="140" y1="20" x2="140" y2="260" stroke="#999" stroke-width="0.5"/>
+      <line x1="210" y1="20" x2="210" y2="260" stroke="#999" stroke-width="0.5"/>
+      <line x1="280" y1="20" x2="280" y2="260" stroke="#999" stroke-width="0.5"/>
+      <line x1="350" y1="20" x2="350" y2="260" stroke="#999" stroke-width="0.5"/>
+      <line x1="420" y1="20" x2="420" y2="260" stroke="#999" stroke-width="0.5"/>
+      
+      <!-- X-Achsen-Beschriftung -->
+      <text x="95" y="275" text-anchor="middle" font-size="11" fill="#222">Hund</text>
+      <text x="165" y="275" text-anchor="middle" font-size="11" fill="#222">Katze</text>
+      <text x="235" y="275" text-anchor="middle" font-size="11" fill="#222">Fisch</text>
+      <text x="305" y="275" text-anchor="middle" font-size="11" fill="#222">Vogel</text>
+      <text x="375" y="275" text-anchor="middle" font-size="11" fill="#222">Hamster</text>
+    </svg>
+  </div>
+  
+  <p><strong>Daten:</strong> Hund: 5, Katze: 3, Fisch: 2, Vogel: 4, Hamster: 1</p>
+  <div class="work-space"></div>
+
+  <h3>Aufgabe 4: Schulmaterial</h3>
+  <p>Zeichne die Balken für die Anzahl der Schulmaterialien. 1 Kästchen = 5 Stück.</p>
+  <div class="diagram-container">
+    <svg class="bar-chart" viewBox="0 0 500 280" role="img" aria-label="Leeres Balkendiagramm Schulmaterial">
+      <!-- Nulllinie am unteren Rand -->
+      <line x1="40" y1="260" x2="440" y2="260" stroke="#222" stroke-width="2"/>
+      
+      <!-- Y-Achse -->
+      <line x1="40" y1="20" x2="40" y2="260" stroke="#222" stroke-width="2"/>
+      
+      <!-- Y-Achsen-Beschriftung (5er-Schritte) -->
+      <text x="20" y="265" text-anchor="end" font-size="11" fill="#222">0</text>
+      <text x="20" y="215" text-anchor="end" font-size="11" fill="#222">5</text>
+      <text x="20" y="165" text-anchor="end" font-size="11" fill="#222">10</text>
+      <text x="20" y="115" text-anchor="end" font-size="11" fill="#222">15</text>
+      <text x="20" y="65" text-anchor="end" font-size="11" fill="#222">20</text>
+      
+      <!-- Gitternetzlinien bei 5er-Schritten -->
+      <line x1="40" y1="60" x2="440" y2="60" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="110" x2="440" y2="110" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="160" x2="440" y2="160" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="210" x2="440" y2="210" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="260" x2="440" y2="260" stroke="#222" stroke-width="1"/>
+      
+      <!-- X-Achsen-Linien für Balkenpositionen -->
+      <line x1="70" y1="20" x2="70" y2="260" stroke="#999" stroke-width="0.5"/>
+      <line x1="140" y1="20" x2="140" y2="260" stroke="#999" stroke-width="0.5"/>
+      <line x1="210" y1="20" x2="210" y2="260" stroke="#999" stroke-width="0.5"/>
+      <line x1="280" y1="20" x2="280" y2="260" stroke="#999" stroke-width="0.5"/>
+      <line x1="350" y1="20" x2="350" y2="260" stroke="#999" stroke-width="0.5"/>
+      <line x1="420" y1="20" x2="420" y2="260" stroke="#999" stroke-width="0.5"/>
+      
+      <!-- X-Achsen-Beschriftung -->
+      <text x="95" y="275" text-anchor="middle" font-size="10" fill="#222">Bleistifte</text>
+      <text x="165" y="275" text-anchor="middle" font-size="10" fill="#222">Hefte</text>
+      <text x="235" y="275" text-anchor="middle" font-size="10" fill="#222">Bücher</text>
+      <text x="305" y="275" text-anchor="middle" font-size="10" fill="#222">Radiergummis</text>
+      <text x="375" y="275" text-anchor="middle" font-size="10" fill="#222">Lineale</text>
+    </svg>
+  </div>
+  
+  <p><strong>Daten:</strong> Bleistifte: 15, Hefte: 10, Bücher: 5, Radiergummis: 20, Lineale: 10</p>
+  <div class="work-space"></div>
+</section>
+
+<section class="page-break">
+  <h2>Zusatzaufgabe: Balkendiagramm erstellen und lesen</h2>
+  
+  <h3>Aufgabe 5: Eigenes Balkendiagramm</h3>
+  <p>Erfinde eine eigene Tabelle mit 5 Kategorien und den dazugeh&ouml;rigen Werten. Dann zeichne ein Balkendiagramm dazu.</p>
+  
+  <table>
+    <tr><th>Kategorie</th><th>Wert</th></tr>
+    <tr><td><span class="answer-blank"></span></td><td><span class="answer-blank"></span></td></tr>
+    <tr><td><span class="answer-blank"></span></td><td><span class="answer-blank"></span></td></tr>
+    <tr><td><span class="answer-blank"></span></td><td><span class="answer-blank"></span></td></tr>
+    <tr><td><span class="answer-blank"></span></td><td><span class="answer-blank"></span></td></tr>
+    <tr><td><span class="answer-blank"></span></td><td><span class="answer-blank"></span></td></tr>
+  </table>
+  
+  <p>Balkendiagramm (<strong>alle Balken beginnen auf der Nulllinie!</strong>):</p>
+  <div class="diagram-container">
+    <svg class="bar-chart" viewBox="0 0 500 200" role="img" aria-label="Leeres Balkendiagramm für eigene Daten">
+      <!-- Nulllinie am unteren Rand -->
+      <line x1="40" y1="180" x2="440" y2="180" stroke="#222" stroke-width="2"/>
+      
+      <!-- Y-Achse -->
+      <line x1="40" y1="20" x2="40" y2="180" stroke="#222" stroke-width="2"/>
+      
+      <!-- Y-Achsen-Beschriftung -->
+      <text x="20" y="185" text-anchor="end" font-size="11" fill="#222">0</text>
+      <text x="20" y="135" text-anchor="end" font-size="11" fill="#222">5</text>
+      <text x="20" y="85" text-anchor="end" font-size="11" fill="#222">10</text>
+      <text x="20" y="35" text-anchor="end" font-size="11" fill="#222">15</text>
+      
+      <!-- Gitternetzlinien bei 5er-Schritten (0, 5, 10, 15) -->
+      <line x1="40" y1="30" x2="440" y2="30" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="80" x2="440" y2="80" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="130" x2="440" y2="130" stroke="#ddd" stroke-width="0.5" stroke-dasharray="2,2"/>
+      <line x1="40" y1="180" x2="440" y2="180" stroke="#222" stroke-width="1"/>
+      
+      <!-- X-Achsen-Linien für Balkenpositionen -->
+      <line x1="70" y1="20" x2="70" y2="180" stroke="#999" stroke-width="0.5"/>
+      <line x1="140" y1="20" x2="140" y2="180" stroke="#999" stroke-width="0.5"/>
+      <line x1="210" y1="20" x2="210" y2="180" stroke="#999" stroke-width="0.5"/>
+      <line x1="280" y1="20" x2="280" y2="180" stroke="#999" stroke-width="0.5"/>
+      <line x1="350" y1="20" x2="350" y2="180" stroke="#999" stroke-width="0.5"/>
+      <line x1="420" y1="20" x2="420" y2="180" stroke="#999" stroke-width="0.5"/>
+    </svg>
+  </div>
+  
+  <h3>Aufgabe 6: Balkendiagramm interpretieren</h3>
+  <p>Beantworte die Fragen zu einem fiktiven Balkendiagramm:</p>
+  <p>Stell dir vor, in einer Klasse wurden die Lieblingsfarben abgefragt. Das Balkendiagramm zeigt: Rot: 8, Blau: 5, Grün: 3, Gelb: 6, Lila: 4.</p>
+  <p>1. Welche Farbe ist am beliebtesten? <span class="answer-blank"></span></p>
+  <p>2. Welche Farbe ist am wenigsten beliebt? <span class="answer-blank"></span></p>
+  <p>3. Wie viele Kinder haben Rot oder Blau als Lieblingsfarbe? <span class="answer-blank"></span></p>
+  <p>4. Um wie viel ist Rot beliebter als Grün? <span class="answer-blank"></span></p>
+</section>
+
+</body>
+</html>
