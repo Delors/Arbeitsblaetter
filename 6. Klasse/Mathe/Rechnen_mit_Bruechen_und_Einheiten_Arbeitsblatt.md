@@ -26,7 +26,9 @@ $$2\,\mathrm{m} + 35\,\mathrm{cm} = 200\,\mathrm{cm} + 35\,\mathrm{cm} = 235\,\m
 | Masse | $1\,\mathrm{t} = 1000\,\mathrm{kg}$; $1\,\mathrm{kg} = 1000\,\mathrm{g}$ |
 | Zeit | $1\,\mathrm{h} = 60\,\mathrm{min}$; $1\,\mathrm{min} = 60\,\mathrm{s}$ |
 | Geld | $1\,\mathrm{€} = 100\,\mathrm{ct}$ |
-| Geschwindigkeit | $v = \frac{s}{t}$, also $s = v \cdot t$ und $t = \frac{s}{v}$ |
+| Geschwindigkeit | $v = \frac{s}{t}$, also $s = v \cdot t$ und $t = \frac{s}{v}$; $1\,\frac{\mathrm{m}}{\mathrm{s}} = 3{,}6\,\frac{\mathrm{km}}{\mathrm{h}}$ |
+| Leistung und Energie | $1\,\mathrm{kW} = 1000\,\mathrm{W}$; Leistung · Zeit = Energie: $\mathrm{kW} \cdot \mathrm{h} = \mathrm{kWh}$ |
+| Dichte | Dichte = Masse : Volumen, z. B. in $\frac{\mathrm{g}}{\mathrm{cm}^3}$; also Masse = Dichte · Volumen |
 
 ### Die Einheitenkontrolle (Plausibilitätscheck)
 
@@ -77,12 +79,12 @@ Rechne zuerst in eine gemeinsame Einheit um und gib das Ergebnis möglichst in d
 
 Rechne mit Einheiten, kürze und gib das Ergebnis **mit der richtigen Einheit** an.
 
-1. $\frac{\mathrm{m}}{\mathrm{s}} \cdot 5\,\mathrm{s} =$ \______________
+1. $3\,\frac{\mathrm{m}}{\mathrm{s}} \cdot 5\,\mathrm{s} =$ \______________
 2. $40\,\frac{\mathrm{km}}{\mathrm{h}} \cdot \frac{1}{2}\,\mathrm{h} =$ \______________
 3. $12\,\frac{\mathrm{€}}{\mathrm{kg}} \cdot 3\,\mathrm{kg} =$ \______________
 4. $60\,\frac{\mathrm{km}}{\mathrm{h}} \cdot 45\,\mathrm{min} =$ \______________ *(Tipp: min in h umrechnen!)*
-5. $80\,\frac{\mathrm{g}}{\mathrm{cm}^3} \cdot 10\,\mathrm{cm}^3 =$ \______________
-6. $9{,}99\,\frac{\mathrm{€}}{\mathrm{l}} \cdot 40\,\mathrm{l} =$ \______________
+5. $8\,\frac{\mathrm{g}}{\mathrm{cm}^3} \cdot 10\,\mathrm{cm}^3 =$ \______________ *(Dichte mal Volumen = Masse)*
+6. $1{,}80\,\frac{\mathrm{€}}{\mathrm{l}} \cdot 40\,\mathrm{l} =$ \______________
 7. $15\,\mathrm{m}^2 \cdot 3\,\mathrm{m} =$ \______________ *(Fläche mal Höhe = Volumen)*
 8. $0{,}5\,\mathrm{kW} \cdot 4\,\mathrm{h} =$ \______________ *(Leistung mal Zeit = Energie)*
 9. $120\,\frac{\mathrm{km}}{\mathrm{h}} : 3 =$ \______________
@@ -97,7 +99,7 @@ Rechne mit Einheiten, kürze und gib das Ergebnis **mit der richtigen Einheit** 
 
 Lies genau, rechne mit Einheiten und schreibe einen Antwortsatz. **Kontrolliere am Ende die Einheit!**
 
-1. Ein Auto fährt $\frac{3}{4}\,\mathrm{h}$ lang mit $80\,\frac{\mathrm{km}}{\mathrm{h}}$. Welche Strecke legt es zurück?
+1. Ein Auto fährt $\frac{2}{3}\,\mathrm{h}$ lang mit $90\,\frac{\mathrm{km}}{\mathrm{h}}$. Welche Strecke legt es zurück?
 
    Rechnung: \________________________________________________________________
 
@@ -109,7 +111,7 @@ Lies genau, rechne mit Einheiten und schreibe einen Antwortsatz. **Kontrolliere 
 
    Antwort: \________________________________________________________________
 
-3. Gold hat eine Dichte von $19{,}3\,\frac{\mathrm{g}}{\mathrm{cm}^3}$. Wie viel wiegt ein Goldbarren mit $2\,\mathrm{cm}^3$ Volumen?
+3. Gold hat eine Dichte von $19{,}3\,\frac{\mathrm{g}}{\mathrm{cm}^3}$. Wie viel wiegt ein kleiner Goldbarren mit $2\,\mathrm{cm}^3$ Volumen?
 
    Rechnung: \________________________________________________________________
 
@@ -147,6 +149,12 @@ Lies genau, rechne mit Einheiten und schreibe einen Antwortsatz. **Kontrolliere 
 
    Antwort: \________________________________________________________________
 
+9. Käse kostet $24\,\frac{\mathrm{€}}{\mathrm{kg}}$. Wie viel kosten $\frac{3}{4}\,\mathrm{kg}$?
+
+   Rechnung: \________________________________________________________________
+
+   Antwort: \________________________________________________________________
+
 ## 5. Fehler finden – die Einheitenkontrolle deckt sie auf
 
 ### Aufgabe 5
@@ -169,7 +177,7 @@ In jeder Rechnung ist ein Fehler, weil die Einheiten nicht beachtet wurden. Erkl
 
    Fehler: \______________________________________________________________  Richtig: \______________
 
-5. $\frac{1}{4}\,\mathrm{h} + 30\,\mathrm{min} = 1\,\mathrm{h}$
+5. $\frac{1}{4}\,\mathrm{h} + 30\,\mathrm{min} = 55\,\mathrm{min}$
 
    Fehler: \______________________________________________________________  Richtig: \______________
 
@@ -185,7 +193,7 @@ In jeder Rechnung ist ein Fehler, weil die Einheiten nicht beachtet wurden. Erkl
 
 ### Aufgabe 6
 
-1. **km/h in m/s umrechnen:** Rechne um (Tipp: $\frac{\mathrm{km}}{\mathrm{h}} : 3{,}6 = \frac{\mathrm{m}}{\mathrm{s}}$):  
+1. **km/h in m/s umrechnen:** Es gilt $1\,\frac{\mathrm{m}}{\mathrm{s}} = \frac{3600\,\mathrm{m}}{1\,\mathrm{h}} = 3{,}6\,\frac{\mathrm{km}}{\mathrm{h}}$. Teile also die Zahl in $\frac{\mathrm{km}}{\mathrm{h}}$ durch $3{,}6$, um $\frac{\mathrm{m}}{\mathrm{s}}$ zu erhalten (und umgekehrt mal $3{,}6$). Rechne um:  
    a) $36\,\frac{\mathrm{km}}{\mathrm{h}} =$ \______________ $\frac{\mathrm{m}}{\mathrm{s}}$  
    b) $90\,\frac{\mathrm{km}}{\mathrm{h}} =$ \______________ $\frac{\mathrm{m}}{\mathrm{s}}$  
    c) Umgekehrt: $20\,\frac{\mathrm{m}}{\mathrm{s}} =$ \______________ $\frac{\mathrm{km}}{\mathrm{h}}$
@@ -222,9 +230,89 @@ In jeder Rechnung ist ein Fehler, weil die Einheiten nicht beachtet wurden. Erkl
 
    Antwort: \________________________________________________________________
 
-6. **Einkaufen mit Bruch:** Käse kostet $24\,\frac{\mathrm{€}}{\mathrm{kg}}$. Wie viel kosten $\frac{3}{4}\,\mathrm{kg}$?
+## 7. Für Profis (schwer)
+
+### Aufgabe 7: Brüche mit Einheiten addieren und subtrahieren
+
+Rechne zuerst mit den Brüchen (gemeinsamer Nenner!) und rechne das Ergebnis dann in die angegebene Einheit um.
+
+1. $\frac{3}{5}\,\mathrm{km} - \frac{1}{4}\,\mathrm{km} =$ \______________ $\mathrm{km} =$ \______________ $\mathrm{m}$
+2. $2\frac{1}{2}\,\mathrm{kg} - \frac{7}{8}\,\mathrm{kg} =$ \______________ $\mathrm{kg} =$ \______________ $\mathrm{g}$
+3. $1\frac{1}{3}\,\mathrm{h} - \frac{3}{4}\,\mathrm{h} =$ \______________ $\mathrm{h} =$ \______________ $\mathrm{min}$
+4. $\frac{3}{4}\,\mathrm{h} + \frac{1}{6}\,\mathrm{h} + 10\,\mathrm{min} =$ \______________ $\mathrm{min} =$ \______________ $\mathrm{h}$ \______________ $\mathrm{min}$
+
+### Aufgabe 8: Rückwärts – welcher Bruchteil ist das?
+
+Gib als **vollständig gekürzten Bruch** der angegebenen Einheit an.
+
+1. $40\,\mathrm{min} =$ \______________ $\mathrm{h}$
+2. $750\,\mathrm{g} =$ \______________ $\mathrm{kg}$
+3. $18\,\mathrm{min} =$ \______________ $\mathrm{h}$
+4. $36\,\mathrm{s} =$ \______________ $\mathrm{min}$
+5. $125\,\mathrm{ml} =$ \______________ $\mathrm{l}$
+6. $2500\,\mathrm{m}^2 =$ \______________ $\mathrm{ha}$
+
+### Aufgabe 9: Knifflige Textaufgaben
+
+Rechne Schritt für Schritt mit Einheiten und schreibe einen Antwortsatz.
+
+1. **Durch einen Bruch teilen:** Ein Radfahrer fährt $15\,\mathrm{km}$ in $\frac{3}{4}\,\mathrm{h}$. Wie schnell fährt er im Durchschnitt (in $\frac{\mathrm{km}}{\mathrm{h}}$)?
 
    Rechnung: \________________________________________________________________
+
+   Antwort: \________________________________________________________________
+
+2. **Wer ist schneller?** Anna läuft $3\,\mathrm{km}$ in $\frac{1}{4}\,\mathrm{h}$. Ben läuft $250\,\mathrm{m}$ in $1\,\mathrm{min}$. Vergleiche die Geschwindigkeiten in $\frac{\mathrm{km}}{\mathrm{h}}$.
+
+   Rechnung 1: \______________________________________________________________
+
+   Rechnung 2: \______________________________________________________________
+
+   Antwort: \________________________________________________________________
+
+3. **Zugfahrt in zwei Abschnitten:** Eine Bahnstrecke ist $120\,\mathrm{km}$ lang. Der Zug fährt $\frac{2}{3}$ der Strecke mit $80\,\frac{\mathrm{km}}{\mathrm{h}}$, den Rest mit $60\,\frac{\mathrm{km}}{\mathrm{h}}$. Er fährt um 9:40 Uhr ab. Wann kommt er an?
+
+   Rechnung 1: \______________________________________________________________
+
+   Rechnung 2: \______________________________________________________________
+
+   Rechnung 3: \______________________________________________________________
+
+   Antwort: \________________________________________________________________
+
+4. **Die Durchschnittsfalle:** Lea fährt $30\,\mathrm{km}$ mit $60\,\frac{\mathrm{km}}{\mathrm{h}}$ zu ihrer Tante und die gleiche Strecke mit $30\,\frac{\mathrm{km}}{\mathrm{h}}$ zurück. Tom sagt: „Im Durchschnitt ist sie $45\,\frac{\mathrm{km}}{\mathrm{h}}$ gefahren." Hat Tom recht? Berechne die Durchschnittsgeschwindigkeit mit Gesamtstrecke : Gesamtzeit.
+
+   Rechnung 1: \______________________________________________________________
+
+   Rechnung 2: \______________________________________________________________
+
+   Antwort: \________________________________________________________________
+
+5. **Aquarium füllen:** Ein Aquarium ist $60\,\mathrm{cm}$ lang, $30\,\mathrm{cm}$ breit und $40\,\mathrm{cm}$ hoch. Es soll zu $\frac{3}{4}$ mit Wasser gefüllt werden. Der Schlauch liefert $6\,\frac{\mathrm{l}}{\mathrm{min}}$. Wie lange dauert das Füllen?
+
+   Rechnung 1: \______________________________________________________________
+
+   Rechnung 2: \______________________________________________________________
+
+   Rechnung 3: \______________________________________________________________
+
+   Antwort: \________________________________________________________________
+
+6. **Rezept umrechnen:** Für einen Kuchen für 4 Personen braucht man $\frac{3}{4}\,\mathrm{kg}$ Mehl und $\frac{3}{8}\,\mathrm{l}$ Milch. Wie viel Gramm Mehl und wie viel Milliliter Milch braucht man für 6 Personen?
+
+   Rechnung 1: \______________________________________________________________
+
+   Rechnung 2: \______________________________________________________________
+
+   Antwort: \________________________________________________________________
+
+7. **Stromkosten:** Ein Fernseher hat eine Leistung von $120\,\mathrm{W}$ und läuft jeden Tag $2\frac{1}{2}\,\mathrm{h}$. Wie viel kostet das in einer Woche bei $0{,}40\,\frac{\mathrm{€}}{\mathrm{kWh}}$?
+
+   Rechnung 1: \______________________________________________________________
+
+   Rechnung 2: \______________________________________________________________
+
+   Rechnung 3: \______________________________________________________________
 
    Antwort: \________________________________________________________________
 
