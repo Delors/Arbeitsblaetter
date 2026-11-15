@@ -12,25 +12,25 @@ Du lernst,
 
 ### Was ist eine Wortschlange?
 
-Eine Wortschlange ist ein Satz, bei dem alle Leerzeichen fehlen:
+Eine Wortschlange ist ein Satz, bei dem alle Leerzeichen fehlen und alle Wörter kleingeschrieben sind:
 
-> `AmSamstaggehenwirinsKino.`
+> `amsamstaggehenwirinskino.`
 
 ### So gehst du vor
 
 1. Lies die Schlange langsam und suche die **Nomen** (Wörter, vor denen der/die/das stehen könnte) → Nomen immer **groß**.
-2. Suche **das/dass**: Ersatzprobe mit „dieses/welches" – geht sie nicht, steht ein Nebensatz → **dass**.
-3. Prüfe **Zeitangaben**: mit Artikel/Präposition → Nomen (groß), sonst Adverb (klein).
-4. Prüfe **nominalisierte Verben/Adjektive**: Infinitiv mit Artikel (das Lesen) oder Adjektiv mit Artikel (der Alte, etwas Gutes) → **groß**.
+2. Suche **das/dass**: Ersatzprobe mit „dieses/dies/welches" – geht sie nicht, leitet es einen Nebensatz ein → **dass**.
+3. Prüfe **Zeitangaben**: mit Artikel/Präposition → Nomen (groß), sonst meist Adverb (klein).
+4. Prüfe **nominalisierte Verben/Adjektive**: Infinitiv mit Artikel (das Lesen) oder Adjektiv mit Artikel bzw. nach „etwas" (der Alte, etwas Gutes) → **groß**.
 5. Am **Satzanfang** ist das erste Wort immer **groß**.
 
 ### Beispiel
 
-> `DasistdasBuch,dastdugesucht hast.`
+> `dasistdasbuch,dasdugesuchthast.`
 >
 > → **Das ist das Buch, das du gesucht hast.**
 >
-> („Das ist" → Demonstrativpronomen, groß; „das Buch" → Artikel; „das du gesucht hast" → Relativpronomen, Ersatzprobe mit „welches")
+> („Das ist" → Demonstrativpronomen, groß am Satzanfang; „das Buch" → Artikel; „das du gesucht hast" → Relativpronomen, Ersatzprobe mit „welches")
 
 ## 2. Trenne die Wortschlangen (leicht bis mittel)
 
@@ -38,35 +38,35 @@ Eine Wortschlange ist ein Satz, bei dem alle Leerzeichen fehlen:
 
 Schreibe jede Wortschlange mit Leerzeichen und richtiger Groß-/Kleinschreibung auf.
 
-1. `AmSamstaggehenwirinsKino.`
+1. `amsamstaggehenwirinskino.`
 
    \________________________________________________________________
 
-2. `Ichhoffe,dassduheutekommst.`
+2. `ichhoffe,dassduheutekommst.`
 
    \________________________________________________________________
 
-3. `WirtreffenunsamMontagmorgen.`
+3. `wirtreffenunsammontagmorgen.`
 
    \________________________________________________________________
 
-4. `HeuteAbendsehenwirfern.`
+4. `wirsehenheuteabendfern.`
 
    \________________________________________________________________
 
-5. `MontagsistdieSchulelang.`
+5. `dieschuleistmontagsbesonderslang.`
 
    \________________________________________________________________
 
-6. `DasLesenmachtmirSpaß.`
+6. `daslesenmachtmirspaß.`
 
    \________________________________________________________________
 
-7. `VielGuteszumGeburtstag!`
+7. `allesgutezumgeburtstag!`
 
    \________________________________________________________________
 
-8. `Siekannschnellrechnen.`
+8. `siekannschnellrechnen.`
 
    \________________________________________________________________
 
@@ -76,35 +76,35 @@ Schreibe jede Wortschlange mit Leerzeichen und richtiger Groß-/Kleinschreibung 
 
 Achte besonders auf das/dass, Zeitangaben und Nominalisierungen.
 
-1. `DasistdasBuch,dastdugesucht hast.`
+1. `kennstdudasmädchen,dasdortdrübensteht?`
 
    \________________________________________________________________
 
-2. `EinesTagesfandicheinenSchatz.`
+2. `einestagesfandicheinenschatz.`
 
    \________________________________________________________________
 
-3. `WirfahrendasgleicheAuto.`
+3. `wirfahrendasgleicheautowieihr.`
 
    \________________________________________________________________
 
-4. `DasSchnelleLaufenistgesund.`
+4. `dasschnellelaufenistgesund.`
 
    \________________________________________________________________
 
-5. `AnWeihnachtenbekommenwirGeschenke.`
+5. `anweihnachtenbekommenwirgeschenke.`
 
    \________________________________________________________________
 
-6. `IchhabeetwasAnderesvor.`
+6. `ichhabeetwasanderesvor.`
 
    \________________________________________________________________
 
-7. `Nichtsistunmöglich.`
+7. `esgibtnichtsunmögliches.`
 
    \________________________________________________________________
 
-8. `InderNachtwarallesruhig.`
+8. `indernachtwarallesruhig.`
 
    \________________________________________________________________
 
@@ -112,25 +112,25 @@ Achte besonders auf das/dass, Zeitangaben und Nominalisierungen.
 
 ### Aufgabe 3
 
-1. `GesternAbendhabenwirbisnachtsgefeiert,dassdasneueJahrgutwird.`
+1. `gesternabendhabenwirsolangegefeiert,dassichnachtskaumgeschlafenhabe.`
 
    \________________________________________________________________
 
    \________________________________________________________________
 
-2. `DerAlteMannsagte,dassdasWetterbaldschlechterwird,undgingnachHause.`
+2. `deraltemannsagte,dassdaswetterbaldschlechterwird,undgingnachhause.`
 
    \________________________________________________________________
 
    \________________________________________________________________
 
-3. `BeimlautenSingenhabeichmicherkältet,deshalbsingeichjetztleise.`
+3. `beimlautensingenhabeichmicherkältet,deshalbsingeichjetztleise.`
 
    \________________________________________________________________
 
    \________________________________________________________________
 
-4. `AmWochenendefahrenwir ansMeer,weilderStranddortsoSchönist.`
+4. `amwochenendefahrenwiransmeer,weilderstranddortsoschönist.`
 
    \________________________________________________________________
 
@@ -140,13 +140,13 @@ Achte besonders auf das/dass, Zeitangaben und Nominalisierungen.
 
 ### Aufgabe 4
 
-Erfinde selbst eine Wortschlange mit etwa 8–12 Wörtern. Sie soll enthalten:
+Erfinde selbst eine Wortschlange mit etwa 8–12 Wörtern. Schreibe sie ohne Leerzeichen und ganz in Kleinbuchstaben. Sie soll enthalten:
 
 - mindestens einmal **das oder dass**,
-- mindestens eine **Zeitangabe** (z. B. Montag, heute Abend, nachts),
+- mindestens eine **Zeitangabe** (z. B. am Montag, heute Abend, nachts),
 - mindestens eine **Nominalisierung** (z. B. das Lesen, etwas Gutes).
 
-Danach tauscht du deine Schlange mit einem Partner – kann er sie lösen?
+Tausche danach deine Schlange mit einem anderen Kind – kann es sie lösen?
 
 Meine Wortschlange: \_______________________________________________________________
 
@@ -154,4 +154,4 @@ Meine Wortschlange: \___________________________________________________________
 
 \_____________________________________________________________________
 
-**Kontrolle:** Sind alle Nomen groß? Ist das/dass richtig? Sind Zeitangaben und Nominalisierungen korrekt geschrieben? Steht am Satzanfang ein großes Wort?
+**Kontrolle:** Sind alle Nomen groß? Ist das/dass richtig? Sind Zeitangaben und Nominalisierungen korrekt geschrieben? Ist das erste Wort am Satzanfang großgeschrieben?

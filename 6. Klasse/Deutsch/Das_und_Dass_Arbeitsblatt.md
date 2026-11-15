@@ -16,9 +16,9 @@ Du lernst,
 
 | Bedeutung | Beispiel | Probe |
 | --- | --- | --- |
-| Artikel (begleitet ein Nomen) | **das** Haus, **das** Buch | Ersatzprobe mit **dieses**: „dieses Haus" ✓ |
-| Demonstrativpronomen (allein stehend) | **Das** ist toll! **Das** finde ich gut. | Ersatzprobe mit **dies/dieses**: „Dies ist toll!" ✓ |
-| Relativpronomen (bezieht sich auf ein Nomen) | das Buch, **das** ich gerade lese | Ersatzprobe mit **welches**: „das Buch, welches ich gerade lese" ✓ |
+| Artikel (begleitet ein Nomen) | **das** Haus, **das** Buch | Ersatzprobe mit **dieses**: „dieses Haus\" ✓ |
+| Demonstrativpronomen (allein stehend) | **Das** ist toll! **Das** finde ich gut. | Ersatzprobe mit **dies/dieses**: „Dies ist toll!\" ✓ |
+| Relativpronomen (bezieht sich auf ein Nomen) | das Buch, **das** ich gerade lese | Ersatzprobe mit **welches**: „das Buch, welches ich gerade lese\" ✓ |
 
 ### dass – die Konjunktion
 

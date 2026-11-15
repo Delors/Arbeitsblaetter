@@ -7,7 +7,7 @@ Du lernst,
 - Adjektive, die als Nomen gebraucht werden, **groß** zu schreiben,
 - die richtige **Endung** zu finden (nach Artikel, nach „etwas/nichts/alles/viel/wenig"),
 - Superlative und Ordnungszahlen als Nomen zu erkennen,
-- die typischen Fallen zu meistern („etwas anderes", „das Gleiche" vs. „das gleiche", „vor allem" vs. „das Allerbeste").
+- die typischen Fallen zu meistern („etwas anderes", „das Gleiche" vs. „das gleiche Buch", „vor allem", „ein bisschen").
 
 ## 1. Merkkasten
 
@@ -17,31 +17,33 @@ Wird ein Adjektiv wie ein Nomen gebraucht, schreibt man es **groß**:
 
 > der **Alte**, die **Junge**, das **Gute**, etwas **Neues**, nichts **Schlimmes**
 
+Steht das Adjektiv aber **vor einem Nomen**, bleibt es **klein**: der **alte** Mann, ein **bekannter** Autor.
+
 ### Die Endungen
 
 | Stellung | Endung | Beispiel |
 | --- | --- | --- |
 | nach Artikel (der/die/das) | -e / -en | der **Alte**, mit dem **Alten**, des **Alten** |
-| nach etwas / nichts / viel / wenig (Nominativ Neutrum) | -es | etwas **Gutes**, nichts **Neues**, viel **Schönes** |
+| nach etwas / nichts / viel / wenig | -es | etwas **Gutes**, nichts **Neues**, viel **Schönes** |
 | nach alles | -e | **alles Gute** |
 | Superlativ als Nomen | -e / -en | das **Beste**, der **Schnellste** |
-| Ordnungszahl als Nomen | -e / -en | das **Erste**, am **Ersten** – aber vor Nomen klein: am **ersten** Mai |
+| Ordnungszahl als Nomen | -e / -en | der **Erste**, am **Ersten** – aber vor einem Nomen klein: am **ersten** Schultag |
 
 ### Die wichtigsten Fallen
 
-> Nach **etwas, nichts, alles, viel, wenig** schreibt man Adjektive groß – **aber** „ander-" bleibt klein: etwas **anderes**, nichts **anderes**, **alles andere**.
+> Nach **etwas, nichts, alles, viel, wenig** schreibt man Adjektive groß – **aber** „ander-" schreibt man in der Regel klein: etwas **anderes**, nichts **anderes**, **alles andere**. (Großschreibung ist auch erlaubt, empfohlen wird aber klein.)
 
 > **das Gleiche** (Nomen, groß: Wir machen das Gleiche.) – aber **das gleiche** Buch (Adjektiv vor Nomen, klein).
 
-> **vor allem** (klein!) – aber **das Allerbeste** (groß, mit Artikel).
+> **vor allem** schreibt man klein – aber **das Allerbeste** (Superlativ als Nomen) groß.
 
-> Nach **jemand, niemand, man** bleibt vor allem **„anderes" klein**: jemand **anderes**, niemand **anderes**.
+> Nach **jemand** und **niemand** bleibt „anderes" klein: jemand **anderes**, niemand **anderes**. Andere Adjektive werden groß: jemand **Fremdes**, niemand **Bekanntes**.
 
-> **„manches"** als Pronomen bleibt klein: **Manches** ist eben so. – aber nach „viel" wird das Adjektiv groß: **viel Schönes**.
+> Pronomen wie **manches, vieles, alles, etwas, nichts** sind keine nominalisierten Adjektive. Sie bleiben klein (außer am Satzanfang): Ich habe **vieles** gelernt. – Aber das Adjektiv nach „viel" wird groß: **viel Schönes**.
 
-> **Nichts** am Satzanfang groß: **Nichts** ist unmöglich. – mitten im Satz klein: Es gibt **nichts** Unmögliches.
+> **ein bisschen** schreibt man **klein** (es bedeutet „ein wenig"): Gib mir ein **bisschen** Zeit.
 
-> **ein bisschen** – „bisschen" ist ein Nomen und steht groß. **bei Weitem** – „Weitem" groß.
+> **bei Weitem** – hier wird „Weitem" großgeschrieben (Kleinschreibung ist auch erlaubt).
 
 ## 2. Ergänze die richtige Endung (leicht)
 
@@ -55,46 +57,48 @@ Wird ein Adjektiv wie ein Nomen gebraucht, schreibt man es **groß**:
 6. das Erst______
 7. viel Schön______
 8. alles Gut______
-9. wenig Bekann______
-10. das Interressant______
+9. wenig Bekannt______
+10. das Interessant______
 
-## 3. Setze das Adjektiv als Nomen ein (leicht bis mittel)
+## 3. Nomen oder Adjektiv? (leicht bis mittel)
 
 ### Aufgabe 2
+
+Setze das Adjektiv aus der Klammer richtig ein. Entscheide: Wird es als **Nomen** gebraucht (groß) oder steht es **vor einem Nomen** (klein)? Achte auch auf die Endung.
 
 1. Er ist ein ______ (bekannt) Autor.
 2. Der ______ (alt) Mann saß auf der Bank.
 3. Sie trägt heute etwas ______ (neu).
-4. Das war das ______ (schön), was ich je gesehen habe.
+4. Das war das ______ (schön – Superlativ), was ich je gesehen habe.
 5. Kennst du schon die ______ (neu) in unserer Klasse?
-6. Er ist der ______ (klug) in der Klasse.
+6. Er ist der ______ (klug – Superlativ) in der Klasse.
 7. Wir wünschen dir alles ______ (gut) zum Geburtstag!
 8. ______ (viel) ______ (schön) haben wir in den Ferien erlebt.
 
-## 4. das Gleiche vs. das gleiche (mittel)
+## 4. das Gleiche oder das gleiche …? (mittel)
 
 ### Aufgabe 3
 
-Entscheide: Nomen (groß) oder Adjektiv vor Nomen (klein)? Setze ein.
+Entscheide: Nomen (groß) oder Adjektiv vor einem Nomen (klein)? Schreibe richtig in die Lücke.
 
-1. Wir kaufen ______ (das gleiche) Buch wie ihr.
-2. Wir machen ______ (das Gleiche) wie gestern.
-3. Er hat ______ (das gleiche) Fahrrad wie ich.
-4. ______ (Das Gleiche) passiert immer wieder.
-5. Sie trägt ______ (das gleiche) Kleid wie gestern.
-6. „Mach nicht ______ (das Gleiche) wie dein Bruder!"
+1. Wir kaufen ______ (DAS GLEICHE) Buch wie ihr.
+2. Wir machen ______ (DAS GLEICHE) wie gestern.
+3. Er hat ______ (DAS GLEICHE) Fahrrad wie ich.
+4. ______ (DAS GLEICHE) passiert immer wieder.
+5. Sie trägt ______ (DAS GLEICHE) Kleid wie ihre Schwester.
+6. „Mach nicht ______ (DAS GLEICHE) wie dein Bruder!"
 
 ## 5. Korrigiere die Fehler (mittel)
 
 ### Aufgabe 4
 
-In jedem Satz ist ein Fehler bei der Nominalisierung. Schreibe den Satz richtig auf.
+In jedem Satz ist ein Fehler bei der Groß-/Kleinschreibung eines Adjektivs. Schreibe den Satz richtig auf.
 
 1. Ich wünsche dir etwas gutes.
 
    \________________________________________________________________
 
-2. Er ist ein bekannter schriftsteller.
+2. Die neue in unserer Klasse heißt Mia.
 
    \________________________________________________________________
 
@@ -106,7 +110,7 @@ In jedem Satz ist ein Fehler bei der Nominalisierung. Schreibe den Satz richtig 
 
    \________________________________________________________________
 
-5. Jemand Anderes hat das gemacht.
+5. Im dunkeln habe ich manchmal Angst.
 
    \________________________________________________________________
 
@@ -114,11 +118,11 @@ In jedem Satz ist ein Fehler bei der Nominalisierung. Schreibe den Satz richtig 
 
    \________________________________________________________________
 
-7. Das ist das allerbeste Ergebnis.
+7. Das war das allerbeste, was mir passieren konnte.
 
    \________________________________________________________________
 
-8. Am Ersten Mai haben wir frei.
+8. Am Ersten Schultag war ich sehr aufgeregt.
 
    \________________________________________________________________
 
@@ -126,40 +130,40 @@ In jedem Satz ist ein Fehler bei der Nominalisierung. Schreibe den Satz richtig 
 
    \________________________________________________________________
 
-10. Es ist Nichts unmöglich.
+10. Es gibt nichts unmögliches.
 
-   \________________________________________________________________
+    \________________________________________________________________
 
 ## 6. Die Fallen im Detail (schwer)
 
 ### Aufgabe 5
 
-Setze richtig ein und achte auf groß/klein.
+Setze die Wörter aus der Klammer in der richtigen Schreibung ein und achte auf groß/klein.
 
-1. ______ (Alles andere) ist jetzt egal.
-2. ______ (Etwas anderes) ist geplant.
-3. ______ (Nichts Neues) gibt es heute.
-4. Er ist ______ (der Andere), von dem alle sprechen.
-5. ______ (Der andere) Weg ist kürzer.
-6. ______ (Viel) ______ (schön) habe ich dort erlebt.
-7. Gib mir ______ (ein bisschen) Zeit!
-8. Das ist ______ (bei Weitem) das Beste.
-9. ______ (Zum ersten Mal) fahre ich allein Zug.
-10. ______ (Manches) ist eben so.
+1. Jetzt ist mir ______ (ALLES ANDERE) egal.
+2. Für morgen ist ______ (ETWAS ANDERES) geplant.
+3. Heute gibt es ______ (NICHTS NEUES).
+4. Der ______ (ANDERE) Weg ist kürzer.
+5. Wir haben dort ______ (VIEL SCHÖNES) erlebt.
+6. Gib mir bitte ______ (EIN BISSCHEN) Zeit!
+7. Das ist ______ (BEI WEITEM) das beste Angebot.
+8. Ich fahre heute ______ (ZUM ERSTEN MAL) allein Zug.
+9. In diesem Jahr habe ich ______ (VIELES) gelernt.
+10. Das war ______ (NIEMAND ANDERES) als mein Bruder.
 
 ## 7. Lückentext (schwer)
 
 ### Aufgabe 6
 
-Setze die Adjektive in Klammern als Nomen richtig ein (groß/klein + Endung).
+Setze die Adjektive in Klammern richtig ein. Entscheide jedes Mal: groß oder klein? Welche Endung? Achtung: Nicht jedes Adjektiv wird hier zum Nomen!
 
-> In der ______ (alt) Innenstadt gibt es ______ (viel) ______ (schön) zu entdecken. ______ (Das Interressante) sind die engen Gassen. ______ (Alles Gute) wünsche ich dir! ______ (Nichts Neues) ist passiert. ______ (Etwas anderes) hatten wir erwartet. ______ (Der Bekannte), ______ (der bekannt) Sammler, kam auch vorbei.
+> In der ______ (alt) Innenstadt gibt es viel ______ (schön) zu entdecken. Das ______ (interessant) sind die engen Gassen. In einem kleinen Laden habe ich etwas ______ (besonder-) gefunden: eine ______ (alt) Karte der Stadt. Der Verkäufer, ein ______ (freundlich) älterer Herr, hat mir alles ______ (wichtig) über die Karte erzählt. Eigentlich wollte ich etwas ______ (ander-) kaufen, aber die Karte war das ______ (schön – Superlativ), was ich im ganzen Laden gesehen habe.
 
 ## 8. Abschlussaufgabe
 
 ### Aufgabe 7
 
-Schreibe fünf eigene Sätze mit nominalisierten Adjektiven. Verwende mindestens einmal: etwas + Adjektiv, der/die/das + Adjektiv, Superlativ, „etwas anderes" (klein!).
+Schreibe fünf eigene Sätze mit nominalisierten Adjektiven. Verwende mindestens einmal: etwas + Adjektiv, der/die/das + Adjektiv, einen Superlativ als Nomen, „etwas anderes" (klein!).
 
 1. \________________________________________________________________
 2. \________________________________________________________________
@@ -167,4 +171,4 @@ Schreibe fünf eigene Sätze mit nominalisierten Adjektiven. Verwende mindestens
 4. \________________________________________________________________
 5. \________________________________________________________________
 
-**Kontrolle:** Steht ein Artikel oder „etwas/nichts/alles/viel/wenig" davor? Dann Adjektiv groß – außer „ander-" bleibt klein! Vor einem Nomen bleibt das Adjektiv klein.
+**Kontrolle:** Steht ein Artikel oder „etwas/nichts/alles/viel/wenig" davor? Dann Adjektiv groß – „ander-" aber in der Regel klein! Steht das Adjektiv vor einem Nomen, bleibt es klein.

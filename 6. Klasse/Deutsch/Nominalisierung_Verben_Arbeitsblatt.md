@@ -5,36 +5,38 @@
 Du lernst,
 
 - aus Verben (Infinitiven) Nomen zu bilden,
-- nominalisierte Verben **groß** zu schreiben und mit einem **Artikel** zu verwenden,
+- nominalisierte Verben **groß** zu schreiben und an ihren **Begleitern** zu erkennen,
 - typische Verbindungen mit **beim**, **zum**, **vom** zu bilden,
-- nominalisierte Verben mit Adjektiv richtig zu deklinieren,
+- ein Adjektiv vor einem nominalisierten Verb richtig zu deklinieren,
 - das Verb (klein) vom Nomen (groß) im Satz zu unterscheiden.
 
 ## 1. Merkkasten
 
 ### Die Grundregel
 
-Der **Infinitiv** eines Verbs kann wie ein Nomen gebraucht werden. Dann wird er **großgeschrieben** und bekommt einen **Artikel**:
+Der **Infinitiv** eines Verbs kann wie ein Nomen gebraucht werden. Dann wird er **großgeschrieben**. Meistens steht ein **Artikel** (das) davor:
 
 > laufen → **das Laufen**  
 > schwimmen → **das Schwimmen**  
 > lesen → **das Lesen**
+
+Der Artikel kann auch fehlen: **Schwimmen** ist gesund. – Probe: Man kann „das" davorsetzen: **Das Schwimmen** ist gesund. → Nomen, groß!
 
 ### Typische Verbindungen
 
 | Verbindung | Beispiel |
 | --- | --- |
 | **beim** (= bei dem) | **Beim Schwimmen** hat er sich erkältet. |
-| **zum** (= zu dem) | Sie hat Lust **zum Tanzen**. |
+| **zum** (= zu dem) | Sie hat keine Zeit **zum Spielen**. |
 | **vom** (= von dem) | **Vom Rauchen** wird man krank. |
 
 ### Mit Adjektiv (Deklination)
 
-Steht ein Adjektiv davor, wird es dekliniert – das nominalisierte Verb bekommt die Nomen-Endung:
+Steht ein Adjektiv davor, wird das **Adjektiv dekliniert** und bleibt **klein**. Das nominalisierte Verb bekommt nur im Genitiv eine Endung (-s):
 
-> **das schnelle Laufen** (Nominativ)  
-> **beim schnellen Laufen** (Dativ, Endung -en)  
-> **des schnellen Laufens** (Genitiv, Endung -en)
+> **das schnelle Laufen** (Nominativ, Adjektiv-Endung -e)  
+> **beim schnellen Laufen** (Dativ, Adjektiv-Endung -en)  
+> **des schnellen Laufens** (Genitiv, Adjektiv-Endung -en, Nomen-Endung -s)
 
 ### Verb oder Nomen? Der wichtigste Unterschied
 
@@ -43,7 +45,7 @@ Steht ein Adjektiv davor, wird es dekliniert – das nominalisierte Verb bekommt
 | Wir **laufen** jeden Tag zur Schule. | **Das Laufen** tut mir gut. |
 | Sie mag **singen**. | **Das Singen** der Vögel weckt mich. |
 
-> **Merke:** Steht ein Artikel davor oder steht es allein als „Tätigkeit", ist es ein Nomen → **groß**.
+> **Merke:** Steht ein Artikel (das, beim, zum, vom …) oder ein Adjektiv davor oder kann man „das" davorsetzen, ist es ein Nomen → **groß**.
 
 ## 2. Bilde Nomen aus Verben (leicht)
 
@@ -68,35 +70,35 @@ Bilde aus jedem Verb das Nomen mit Artikel. Schreibe es in die Tabelle.
 
 ### Aufgabe 2
 
-Setze das nominalisierte Verb aus der Klammer in der richtigen Form ein.
+Setze das Verb aus der Klammer als Nomen ein. Achte auf die Großschreibung!
 
-1. ______ (Tanzen) macht mir großen Spaß.
-2. Er ist besonders gut im ______ (Rechnen).
-3. Beim ______ (Essen) soll man nicht laut sprechen.
-4. Vom ______ (Rauchen) wird man krank.
-5. Sie hat keine Lust zum ______ (Schwimmen).
-6. ______ (Schlafen) ist gesund.
-7. Das ______ (Lesen) dieses Buches hat lange gedauert.
-8. Er vergisst oft das ______ (Aufräumen) seines Zimmers.
-9. Zum ______ (Fahrradfahren) braucht man ein Fahrrad.
-10. Das ______ (Schreiben) einer E-Mail geht schnell.
+1. ______ (tanzen) macht mir großen Spaß.
+2. Er ist besonders gut im ______ (rechnen).
+3. Beim ______ (essen) soll man nicht laut sprechen.
+4. Vom ______ (rauchen) wird man krank.
+5. Sie hat keine Lust zum ______ (schwimmen).
+6. ______ (schlafen) ist gesund.
+7. Das ______ (lesen) dieses Buches hat lange gedauert.
+8. Er vergisst oft das ______ (aufräumen) seines Zimmers.
+9. Zum ______ (Fahrrad fahren) braucht man einen Helm.
+10. Das ______ (schreiben) einer E-Mail geht schnell.
 
 ## 4. Verb oder Nomen? (mittel)
 
 ### Aufgabe 3
 
-Entscheide bei jedem fett gedruckten Wort: Steht es als **Verb** (klein) oder als **Nomen** (groß)? Schreibe **V** oder **N** daneben und begründe kurz.
+Die Wörter in GROSSBUCHSTABEN: Werden sie als **Verb** (klein) oder als **Nomen** (groß) gebraucht? Schreibe **V** oder **N** und das Wort in der richtigen Schreibung daneben. Begründe kurz.
 
-1. Wir **laufen** jeden Tag zur Schule. ______
-2. **Das Laufen** tut mir aber gut. ______
-3. Sie mag gern **singen**. ______
-4. **Das Singen** im Chor macht ihr Freude. ______
-5. Er muss noch viel **lernen**. ______
-6. **Das Lernen** für die Klassenarbeit ist anstrengend. ______
-7. **Beim Kochen** verbrennt er sich manchmal. ______
-8. Er **kocht** jeden Sonntag selbst. ______
-9. **Das Schwimmen** im See ist im Sommer schön. ______
-10. Die Kinder **schwimmen** gern im See. ______
+1. Wir LAUFEN jeden Tag zur Schule. ______
+2. Das LAUFEN tut mir aber gut. ______
+3. Sie mag gern SINGEN. ______
+4. Das SINGEN im Chor macht ihr Freude. ______
+5. Er muss noch viel LERNEN. ______
+6. Das LERNEN für die Klassenarbeit ist anstrengend. ______
+7. Beim KOCHEN verbrennt er sich manchmal. ______
+8. Er KOCHT jeden Sonntag selbst. ______
+9. Das SCHWIMMEN im See ist im Sommer schön. ______
+10. Die Kinder SCHWIMMEN gern im See. ______
 
 ## 5. Korrigiere die Fehler (mittel)
 
@@ -112,23 +114,23 @@ In jedem Satz ist die Nominalisierung falsch geschrieben. Schreibe den Satz rich
 
    \________________________________________________________________
 
-3. Zum schnell fahren gibt es eine Strafe.
+3. Für zu schnelles fahren gibt es eine Strafe.
 
    \________________________________________________________________
 
-4. Er ist gut im rechen mit großen Zahlen.
+4. Er ist gut im rechnen mit großen Zahlen.
 
    \________________________________________________________________
 
-5. Das schwierige rechnen fällt ihm schwer.
+5. Das ständige warten nervt mich.
 
    \________________________________________________________________
 
-6. Vom früh aufstehen bekommt man gute Laune.
+6. Vom langen schlafen bekommt man manchmal Kopfschmerzen.
 
    \________________________________________________________________
 
-7. Sie liest das buch statt zu lernen.
+7. Statt zu lernen, hat sie den ganzen Abend mit dem lesen verbracht.
 
    \________________________________________________________________
 
@@ -136,14 +138,14 @@ In jedem Satz ist die Nominalisierung falsch geschrieben. Schreibe den Satz rich
 
 ### Aufgabe 5
 
-Ergänze das Adjektiv in der richtigen deklinierten Form und das Nomen groß.
+Ergänze das Adjektiv in der richtigen Form.
 
 1. Das ______ (schnell) Laufen ist gesund.
 2. Beim ______ (laut) Singen bekam er Halsschmerzen.
-3. Zum ______ (langsam) Fahren gab es ein Bußgeld.
+3. Beim ______ (langsam) Fahren kann man die Landschaft genießen.
 4. Wegen des ______ (tief) Schlafens hörte er den Wecker nicht.
 5. Vor dem ______ (kalt) Baden hat er Angst.
-6. Das ______ (schnell) Denken ist nicht immer das beste.
+6. Das ______ (schnell) Denken ist nicht immer das Beste.
 7. Er hat Spaß am ______ (gemeinsam) Kochen.
 8. Das ______ (regelmäßig) Üben bringt den Erfolg.
 
@@ -151,14 +153,14 @@ Ergänze das Adjektiv in der richtigen deklinierten Form und das Nomen groß.
 
 ### Aufgabe 6
 
-In jedem Satz kommen das Verb und das Nomen vor. Setze beides richtig ein (einmal klein als Verb, einmal groß als Nomen).
+In jedem Satz kommt das Wort einmal als **Verb** und einmal als **Nomen** vor. Setze es beide Male richtig ein – als Verb klein (und, wenn nötig, gebeugt), als Nomen groß.
 
-1. ______ (schwimmen) ist gesund, deshalb ______ ich jeden Samstag.
-2. Er lernt ______ (rechnen), aber ______ (das Rechnen) fällt ihm schwer.
-3. ______ (singen) macht Spaß, und ______ (das Singen) im Chor ist noch schöner.
-4. Beim ______ (tanzen) hat er sich verletzt, seitdem meidet er ______ (das Tanzen).
-5. ______ (lesen) Sie bitte leise, während ich noch ______ (lesen).
-6. ______ (schreiben) kann er gut, aber ______ (das Schreiben) von Aufsätzen hasst er.
+1. ______ (schwimmen) ist gesund, deshalb ______ (schwimmen) ich jeden Samstag.
+2. Er will ______ (rechnen) lernen, aber das ______ (rechnen) fällt ihm schwer.
+3. Wir ______ (singen) gern, denn ______ (singen) macht gute Laune.
+4. Beim ______ (tanzen) hat er sich verletzt, deshalb kann er heute nicht ______ (tanzen).
+5. Bitte stör mich nicht beim ______ (lesen), ich ______ (lesen) gerade ein spannendes Buch.
+6. Er kann gut ______ (schreiben), aber das ______ (schreiben) von Aufsätzen mag er nicht.
 
 ## 8. Die Falle: „das Essen" (sehr schwer)
 
@@ -166,7 +168,7 @@ In jedem Satz kommen das Verb und das Nomen vor. Setze beides richtig ein (einma
 
 **das Essen** kann zwei Bedeutungen haben. Erkläre den Unterschied und bilde zu jeder Bedeutung einen Beispielsatz.
 
-1. Bedeutung A: die Mahlzeit (Nomen) – Beispielsatz:
+1. Bedeutung A: die Mahlzeit, die Speise (ein „richtiges" Nomen) – Beispielsatz:
 
    \________________________________________________________________
 
@@ -178,7 +180,7 @@ In jedem Satz kommen das Verb und das Nomen vor. Setze beides richtig ein (einma
 
 ### Aufgabe 8
 
-Schreibe fünf eigene Sätze. Verwende darin nominalisierte Verben mit **beim**, **zum** oder **vom** – einmal mit Adjektiv (dekliniert!).
+Schreibe fünf eigene Sätze. Verwende darin nominalisierte Verben mit **beim**, **zum** oder **vom** – mindestens einmal mit Adjektiv (dekliniert!).
 
 1. \________________________________________________________________
 2. \________________________________________________________________
@@ -186,4 +188,4 @@ Schreibe fünf eigene Sätze. Verwende darin nominalisierte Verben mit **beim**,
 4. \________________________________________________________________
 5. \________________________________________________________________
 
-**Kontrolle:** Steht vor dem Infinitiv ein Artikel oder „beim/zum/vom"? Dann groß! Ist das Verb selbst gemeint (Verb an zweiter Stelle oder mit „ich/du/er ..."), dann klein!
+**Kontrolle:** Steht vor dem Infinitiv ein Artikel, „beim/zum/vom" oder ein Adjektiv? Dann groß! Wird das Wort als Verb gebraucht (z. B. „ich laufe", „ich kann laufen"), dann klein!
